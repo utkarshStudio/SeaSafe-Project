@@ -1,0 +1,992 @@
+{
+  "id": "red-sea",
+  "label": "Red Sea Missile Threat",
+  "flavor": "Major reroute · severity 4",
+  "vessel": {
+    "id": "mv-meridian",
+    "name": "MV Meridian",
+    "imo": "9811000",
+    "type": "Container · 10,000 TEU",
+    "position": [
+      103.85,
+      1.29
+    ],
+    "headingDeg": 285,
+    "cargoManifest": [
+      {
+        "item": "Electronics",
+        "tons": 24000
+      },
+      {
+        "item": "Pharmaceuticals",
+        "tons": 3200
+      },
+      {
+        "item": "Machine parts",
+        "tons": 18500
+      }
+    ]
+  },
+  "voyage": {
+    "from": {
+      "id": "sgsin",
+      "name": "Singapore",
+      "country": "SG",
+      "unlocode": "SGSIN",
+      "position": [
+        103.85,
+        1.29
+      ]
+    },
+    "to": {
+      "id": "nlrtm",
+      "name": "Rotterdam",
+      "country": "NL",
+      "unlocode": "NLRTM",
+      "position": [
+        4.14,
+        51.95
+      ]
+    }
+  },
+  "routes": [
+    {
+      "id": "sg-rtm-suez",
+      "label": "Suez Canal route",
+      "isCurrent": true,
+      "waypoints": [
+        [
+          103.85,
+          1.29
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          90,
+          6.4664
+        ],
+        [
+          85.9479,
+          6.1983
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          70,
+          10
+        ],
+        [
+          65.0002,
+          10.0367
+        ],
+        [
+          60,
+          10
+        ],
+        [
+          56.1603,
+          10.8228
+        ],
+        [
+          52.3,
+          11.6
+        ],
+        [
+          50.9472,
+          12.2639
+        ],
+        [
+          45,
+          12
+        ],
+        [
+          43.465,
+          12.6341
+        ],
+        [
+          38.6238,
+          18.6444
+        ],
+        [
+          36.108,
+          24.0443
+        ],
+        [
+          34.5,
+          27
+        ],
+        [
+          33.75,
+          27.9
+        ],
+        [
+          32.6,
+          29.7
+        ],
+        [
+          32.1667,
+          30.95
+        ],
+        [
+          32.1667,
+          31
+        ],
+        [
+          32.1,
+          31.7
+        ],
+        [
+          27.6298,
+          33.328
+        ],
+        [
+          23,
+          34.8
+        ],
+        [
+          15.2,
+          36.4
+        ],
+        [
+          11,
+          37.5
+        ],
+        [
+          7.5,
+          37.4
+        ],
+        [
+          3.1,
+          37.2
+        ],
+        [
+          -4.7,
+          36
+        ],
+        [
+          -5.75,
+          35.95
+        ],
+        [
+          -9.25,
+          36.8
+        ],
+        [
+          -9.6,
+          38.5
+        ],
+        [
+          -9.9844,
+          40.7798
+        ],
+        [
+          -9.5,
+          43
+        ],
+        [
+          -8.5,
+          43.9
+        ],
+        [
+          -1.7,
+          46.1
+        ],
+        [
+          -2.8,
+          46.6
+        ],
+        [
+          -3.9,
+          47.3
+        ],
+        [
+          -5,
+          48
+        ],
+        [
+          -5.5,
+          48.6667
+        ],
+        [
+          -1.3,
+          49.95
+        ],
+        [
+          -0.109,
+          49.4978
+        ],
+        [
+          0.1,
+          49.9
+        ],
+        [
+          1.3,
+          50.8
+        ],
+        [
+          2.1,
+          51.1
+        ],
+        [
+          3.4,
+          51.5
+        ],
+        [
+          3.9,
+          52
+        ],
+        [
+          3.996601662858379,
+          51.85732002390904
+        ],
+        [
+          4.047588107785258,
+          51.83584421121661
+        ]
+      ],
+      "distanceNm": 8440,
+      "etaHours": 624
+    },
+    {
+      "id": "sg-rtm-cape",
+      "label": "Cape of Good Hope route",
+      "isCurrent": false,
+      "waypoints": [
+        [
+          103.85,
+          1.29
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          91.9932,
+          3.3521
+        ],
+        [
+          90,
+          -0.00003
+        ],
+        [
+          85,
+          -0.000009999999747
+        ],
+        [
+          80,
+          -0.00002
+        ],
+        [
+          75,
+          -0.000009999999747
+        ],
+        [
+          70,
+          -0.00003
+        ],
+        [
+          67.5239,
+          2.5119
+        ],
+        [
+          65.0384,
+          5.019
+        ],
+        [
+          62.5336,
+          7.5167
+        ],
+        [
+          60,
+          10
+        ],
+        [
+          56.1603,
+          10.8228
+        ],
+        [
+          52.3,
+          11.6
+        ],
+        [
+          50.8379,
+          8.3029
+        ],
+        [
+          49.4,
+          5
+        ],
+        [
+          47.8131,
+          0.7472
+        ],
+        [
+          46.2292,
+          -3.5063
+        ],
+        [
+          44.6309,
+          -7.7566
+        ],
+        [
+          43,
+          -12
+        ],
+        [
+          41.7,
+          -15
+        ],
+        [
+          38.929,
+          -19.5234
+        ],
+        [
+          36,
+          -24
+        ],
+        [
+          34,
+          -26
+        ],
+        [
+          32,
+          -30
+        ],
+        [
+          28.5,
+          -33.5
+        ],
+        [
+          26,
+          -34.5
+        ],
+        [
+          22,
+          -35
+        ],
+        [
+          18,
+          -35
+        ],
+        [
+          15.908,
+          -31.0184
+        ],
+        [
+          14,
+          -27
+        ],
+        [
+          13,
+          -23
+        ],
+        [
+          11,
+          -19
+        ],
+        [
+          8.215,
+          -16.7315
+        ],
+        [
+          5.4561,
+          -14.4763
+        ],
+        [
+          2.719,
+          -12.2331
+        ],
+        [
+          0,
+          -10
+        ],
+        [
+          -2.5336,
+          -7.5167
+        ],
+        [
+          -5.0384,
+          -5.019
+        ],
+        [
+          -7.524,
+          -2.5119
+        ],
+        [
+          -10,
+          -0.00002
+        ],
+        [
+          -13.4277,
+          5.5302
+        ],
+        [
+          -17,
+          11
+        ],
+        [
+          -18,
+          15
+        ],
+        [
+          -18,
+          18.1072
+        ],
+        [
+          -18,
+          21
+        ],
+        [
+          -16.6896,
+          24.657
+        ],
+        [
+          -10.1,
+          30.2
+        ],
+        [
+          -10.1,
+          31.8
+        ],
+        [
+          -13.554,
+          27.4027
+        ],
+        [
+          -10.1,
+          31.8
+        ],
+        [
+          -10.1,
+          30.2
+        ],
+        [
+          -15.3,
+          28.3
+        ],
+        [
+          -10.1,
+          30.2
+        ],
+        [
+          -10.1,
+          31.8
+        ],
+        [
+          -8.8,
+          33.6
+        ],
+        [
+          -7.1,
+          34.4
+        ],
+        [
+          -5.75,
+          35.95
+        ],
+        [
+          -9.25,
+          36.8
+        ],
+        [
+          -9.6,
+          38.5
+        ],
+        [
+          -9.9844,
+          40.7798
+        ],
+        [
+          -9.5,
+          43
+        ],
+        [
+          -8.5,
+          43.9
+        ],
+        [
+          -1.7,
+          46.1
+        ],
+        [
+          -2.8,
+          46.6
+        ],
+        [
+          -3.9,
+          47.3
+        ],
+        [
+          -5,
+          48
+        ],
+        [
+          -5.5,
+          48.6667
+        ],
+        [
+          -1.3,
+          49.95
+        ],
+        [
+          -0.109,
+          49.4978
+        ],
+        [
+          0.1,
+          49.9
+        ],
+        [
+          1.3,
+          50.8
+        ],
+        [
+          2.1,
+          51.1
+        ],
+        [
+          3.4,
+          51.5
+        ],
+        [
+          3.9,
+          52
+        ],
+        [
+          3.996601662858379,
+          51.85732002390904
+        ],
+        [
+          4.047588107785258,
+          51.83584421121661
+        ]
+      ],
+      "distanceNm": 11780,
+      "etaHours": 888
+    },
+    {
+      "id": "sg-rtm-convoy",
+      "label": "Suez — Naval Convoy",
+      "isCurrent": false,
+      "waypoints": [
+        [
+          103.85,
+          1.29
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          90,
+          6.4664
+        ],
+        [
+          85.9479,
+          6.1983
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          70,
+          10
+        ],
+        [
+          65.0002,
+          10.0367
+        ],
+        [
+          60,
+          10
+        ],
+        [
+          56.1603,
+          10.8228
+        ],
+        [
+          52.3,
+          11.6
+        ],
+        [
+          50.9472,
+          12.2639
+        ],
+        [
+          45,
+          12
+        ],
+        [
+          43.3,
+          12.7
+        ],
+        [
+          43.465,
+          12.6341
+        ],
+        [
+          38.6238,
+          18.6444
+        ],
+        [
+          36.108,
+          24.0443
+        ],
+        [
+          34.5,
+          27
+        ],
+        [
+          33.75,
+          27.9
+        ],
+        [
+          32.6,
+          29.7
+        ],
+        [
+          32.1667,
+          30.95
+        ],
+        [
+          32.1667,
+          31
+        ],
+        [
+          32.1,
+          31.7
+        ],
+        [
+          27.6298,
+          33.328
+        ],
+        [
+          23,
+          34.8
+        ],
+        [
+          15.2,
+          36.4
+        ],
+        [
+          11,
+          37.5
+        ],
+        [
+          7.5,
+          37.4
+        ],
+        [
+          3.1,
+          37.2
+        ],
+        [
+          -4.7,
+          36
+        ],
+        [
+          -5.75,
+          35.95
+        ],
+        [
+          -9.25,
+          36.8
+        ],
+        [
+          -9.6,
+          38.5
+        ],
+        [
+          -9.9844,
+          40.7798
+        ],
+        [
+          -9.5,
+          43
+        ],
+        [
+          -8.5,
+          43.9
+        ],
+        [
+          -1.7,
+          46.1
+        ],
+        [
+          -2.8,
+          46.6
+        ],
+        [
+          -3.9,
+          47.3
+        ],
+        [
+          -5,
+          48
+        ],
+        [
+          -5.5,
+          48.6667
+        ],
+        [
+          -1.3,
+          49.95
+        ],
+        [
+          -0.109,
+          49.4978
+        ],
+        [
+          0.1,
+          49.9
+        ],
+        [
+          1.3,
+          50.8
+        ],
+        [
+          2.1,
+          51.1
+        ],
+        [
+          3.4,
+          51.5
+        ],
+        [
+          3.9,
+          52
+        ],
+        [
+          3.996601662858379,
+          51.85732002390904
+        ],
+        [
+          4.047588107785258,
+          51.83584421121661
+        ]
+      ],
+      "distanceNm": 8440,
+      "etaHours": 744
+    }
+  ],
+  "chokepoint": {
+    "id": "bab_el_mandeb",
+    "name": "Bab-el-Mandeb Strait",
+    "position": [
+      43.3,
+      12.6
+    ],
+    "polygon": [
+      [
+        42,
+        11
+      ],
+      [
+        45.5,
+        11
+      ],
+      [
+        45.5,
+        15.5
+      ],
+      [
+        42,
+        15.5
+      ]
+    ],
+    "severity": 4,
+    "status": "active_threat",
+    "summary": "Active missile threats to commercial shipping. War-risk premiums ~10x baseline. Multiple casualty reports last 72h."
+  },
+  "advisory": {
+    "id": "risk-red-sea",
+    "chokepointId": "bab_el_mandeb",
+    "title": "Bab-el-Mandeb Strait",
+    "severity": 4,
+    "summary": "Active missile threats to commercial shipping in Bab-el-Mandeb. Multiple casualty reports last 72h. War-risk premiums elevated.",
+    "sources": [
+      {
+        "title": "Houthi attacks force shipping reroutes around Africa",
+        "url": "https://www.reuters.com/world/middle-east/",
+        "domain": "reuters.com"
+      },
+      {
+        "title": "Container lines maintain Cape diversions",
+        "url": "https://lloydslist.com/",
+        "domain": "lloydslist.com"
+      },
+      {
+        "title": "War-risk premiums spike for Red Sea transits",
+        "url": "https://www.maritime-executive.com/",
+        "domain": "maritime-executive.com"
+      }
+    ]
+  },
+  "orchestratorScript": [
+    {
+      "tool": "check_chokepoint_status",
+      "args": {
+        "chokepoint_id": "bab_el_mandeb"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "sg-rtm-suez"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "sg-rtm-cape"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "sg-rtm-convoy"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "sg-rtm-suez",
+        "route_b_id": "sg-rtm-cape"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "sg-rtm-suez",
+        "route_b_id": "sg-rtm-convoy"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "check_port_congestion",
+      "args": {
+        "port_id": "nlrtm"
+      },
+      "delayMsBefore": 700
+    }
+  ],
+  "portCongestion": {
+    "portId": "nlrtm",
+    "portName": "Port of Rotterdam",
+    "unlocode": "NLRTM",
+    "berthOccupancyPct": 87,
+    "anchorQueueVessels": 14,
+    "estimatedWaitHours": 22,
+    "status": "congested",
+    "note": "Cape-diverted vessels from Red Sea crisis have inflated ECT Delta and Euromax terminal queues since early January."
+  },
+  "decision": {
+    "recommendedRouteId": "sg-rtm-cape",
+    "alternativeRouteIds": [
+      "sg-rtm-convoy",
+      "sg-rtm-suez"
+    ],
+    "headline": "Divert via Cape of Good Hope",
+    "rationale": "Convoy transit reduces but does not eliminate severity-4 exposure; war-risk premiums remain ~7× baseline even under escort. Cape route adds 11 days at an incremental fuel cost that is outweighed by the risk delta and insurance saving. Recommended: Cape. Alternatives: Convoy transit (lower cost, residual risk), Direct Suez (not recommended).",
+    "highlightDeltas": {
+      "etaHours": 264,
+      "fuelTons": 770,
+      "fuelUsd": 477400,
+      "co2Tons": 2399
+    }
+  }
+}

@@ -1,0 +1,636 @@
+{
+  "id": "malacca",
+  "label": "Singapore Strait Piracy",
+  "flavor": "Minor detour · severity 3",
+  "vessel": {
+    "id": "mv-tropical-sun",
+    "name": "MV Tropical Sun",
+    "imo": "9821447",
+    "type": "Container · 8,500 TEU",
+    "position": [
+      121.47,
+      31.23
+    ],
+    "headingDeg": 230,
+    "cargoManifest": [
+      {
+        "item": "Electronics (high-value)",
+        "tons": 21000
+      },
+      {
+        "item": "Industrial chemicals",
+        "tons": 6800
+      }
+    ]
+  },
+  "voyage": {
+    "from": {
+      "id": "cnsha",
+      "name": "Shanghai",
+      "country": "CN",
+      "unlocode": "CNSHA",
+      "position": [
+        121.47,
+        31.23
+      ]
+    },
+    "to": {
+      "id": "innsa",
+      "name": "Mumbai (Nhava Sheva)",
+      "country": "IN",
+      "unlocode": "INNSA",
+      "position": [
+        72.83,
+        18.95
+      ]
+    }
+  },
+  "routes": [
+    {
+      "id": "cn-bom-malacca",
+      "label": "Malacca / Singapore Strait route",
+      "isCurrent": true,
+      "waypoints": [
+        [
+          121.47,
+          31.23
+        ],
+        [
+          122.9,
+          31.3
+        ],
+        [
+          121.2047,
+          30.507
+        ],
+        [
+          122.9,
+          31.3
+        ],
+        [
+          122.6776,
+          30.8345
+        ],
+        [
+          121.3,
+          27.8
+        ],
+        [
+          120,
+          25.7
+        ],
+        [
+          120,
+          22.1
+        ],
+        [
+          120,
+          19
+        ],
+        [
+          119.4,
+          17
+        ],
+        [
+          119.9,
+          14.4
+        ],
+        [
+          114.9781,
+          13.3466
+        ],
+        [
+          110.1,
+          12.2
+        ],
+        [
+          109.9482,
+          7.9505
+        ],
+        [
+          109.8,
+          3.7
+        ],
+        [
+          104.48229410434327,
+          1.341311518934441
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          90,
+          6.4664
+        ],
+        [
+          85.9479,
+          6.1983
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          74.3,
+          12.4
+        ],
+        [
+          73,
+          15.3
+        ],
+        [
+          72.4,
+          19
+        ],
+        [
+          72.4,
+          19
+        ],
+        [
+          72.4,
+          19
+        ]
+      ],
+      "distanceNm": 4800,
+      "etaHours": 267
+    },
+    {
+      "id": "cn-bom-sunda",
+      "label": "Sunda Strait detour",
+      "isCurrent": false,
+      "waypoints": [
+        [
+          121.47,
+          31.23
+        ],
+        [
+          122.9,
+          31.3
+        ],
+        [
+          121.2047,
+          30.507
+        ],
+        [
+          122.9,
+          31.3
+        ],
+        [
+          122.6776,
+          30.8345
+        ],
+        [
+          121.3,
+          27.8
+        ],
+        [
+          120,
+          25.7
+        ],
+        [
+          120,
+          22.1
+        ],
+        [
+          120,
+          19
+        ],
+        [
+          119.4,
+          17
+        ],
+        [
+          119.9,
+          14.4
+        ],
+        [
+          116.9113,
+          10.2137
+        ],
+        [
+          114,
+          6
+        ],
+        [
+          109.8,
+          3.7
+        ],
+        [
+          107.3,
+          -1.5
+        ],
+        [
+          106.8,
+          -5.2
+        ],
+        [
+          104,
+          -7
+        ],
+        [
+          101.6981,
+          -4.3157
+        ],
+        [
+          99.9,
+          -1.4
+        ],
+        [
+          99.9,
+          -1.4
+        ],
+        [
+          99.9,
+          -1.4
+        ],
+        [
+          90,
+          -0.00003
+        ],
+        [
+          85.9563,
+          2.95
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          74.3,
+          12.4
+        ],
+        [
+          73,
+          15.3
+        ],
+        [
+          72.4,
+          19
+        ],
+        [
+          72.4,
+          19
+        ],
+        [
+          72.4,
+          19
+        ]
+      ],
+      "distanceNm": 5150,
+      "etaHours": 286
+    },
+    {
+      "id": "cn-bom-lombok",
+      "label": "Lombok Strait (deep bypass)",
+      "isCurrent": false,
+      "waypoints": [
+        [
+          121.47,
+          31.23
+        ],
+        [
+          122.9,
+          31.3
+        ],
+        [
+          121.2047,
+          30.507
+        ],
+        [
+          122.9,
+          31.3
+        ],
+        [
+          122.6776,
+          30.8345
+        ],
+        [
+          121.3,
+          27.8
+        ],
+        [
+          120,
+          25.7
+        ],
+        [
+          120,
+          22.1
+        ],
+        [
+          120,
+          19
+        ],
+        [
+          119.4,
+          17
+        ],
+        [
+          119.9,
+          14.4
+        ],
+        [
+          116.9113,
+          10.2137
+        ],
+        [
+          114,
+          6
+        ],
+        [
+          109.8,
+          3.7
+        ],
+        [
+          107.3,
+          -1.5
+        ],
+        [
+          110.7,
+          -3.6
+        ],
+        [
+          116.95,
+          -5.4
+        ],
+        [
+          116.2,
+          -7.25
+        ],
+        [
+          115.6,
+          -9.1
+        ],
+        [
+          110.25,
+          -8.7
+        ],
+        [
+          105.1343,
+          -9.3864
+        ],
+        [
+          100,
+          -10
+        ],
+        [
+          104,
+          -7
+        ],
+        [
+          100.4799,
+          -5.6605
+        ],
+        [
+          96.9757,
+          -4.3025
+        ],
+        [
+          93.4837,
+          -2.9304
+        ],
+        [
+          90.0001,
+          -1.549
+        ],
+        [
+          86.2822,
+          -0.0677
+        ],
+        [
+          82.5647,
+          1.4138
+        ],
+        [
+          78.8426,
+          2.8901
+        ],
+        [
+          75.1112,
+          4.3558
+        ],
+        [
+          71.3657,
+          5.8054
+        ],
+        [
+          67.6015,
+          7.2332
+        ],
+        [
+          63.8144,
+          8.6333
+        ],
+        [
+          60,
+          10
+        ],
+        [
+          65.0002,
+          10.0367
+        ],
+        [
+          70,
+          10
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          74.3,
+          12.4
+        ],
+        [
+          73,
+          15.3
+        ],
+        [
+          72.4,
+          19
+        ],
+        [
+          72.4,
+          19
+        ],
+        [
+          72.4,
+          19
+        ]
+      ],
+      "distanceNm": 5600,
+      "etaHours": 311
+    }
+  ],
+  "chokepoint": {
+    "id": "singapore_strait",
+    "name": "Singapore Strait (Malacca eastern approach)",
+    "position": [
+      104,
+      1
+    ],
+    "polygon": [
+      [
+        103,
+        0.5
+      ],
+      [
+        105,
+        0.5
+      ],
+      [
+        105,
+        1.8
+      ],
+      [
+        103,
+        1.8
+      ]
+    ],
+    "severity": 3,
+    "status": "piracy_active",
+    "summary": "ReCAAP advisory: 5 boardings in past 14 days, 3 successful. Targeting bridge stores and crew valuables. Several incidents involving multiple armed perpetrators."
+  },
+  "advisory": {
+    "id": "risk-malacca",
+    "chokepointId": "singapore_strait",
+    "title": "Singapore Strait (Malacca eastern approach)",
+    "severity": 3,
+    "summary": "ReCAAP advisory: 5 boardings in past 14 days, 3 successful. Targeting bridge stores and crew valuables. Several incidents involving multiple armed perpetrators.",
+    "sources": [
+      {
+        "title": "ReCAAP weekly incident report flags Singapore Strait surge",
+        "url": "https://www.reuters.com/world/asia-pacific/",
+        "domain": "reuters.com"
+      },
+      {
+        "title": "Carriers warn crews on Malacca/Singapore Strait approaches",
+        "url": "https://lloydslist.com/",
+        "domain": "lloydslist.com"
+      },
+      {
+        "title": "Boardings in Singapore Strait reach multi-year high",
+        "url": "https://www.maritime-executive.com/",
+        "domain": "maritime-executive.com"
+      }
+    ]
+  },
+  "orchestratorScript": [
+    {
+      "tool": "check_chokepoint_status",
+      "args": {
+        "chokepoint_id": "singapore_strait"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "cn-bom-malacca"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "cn-bom-sunda"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "cn-bom-lombok"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "cn-bom-malacca",
+        "route_b_id": "cn-bom-sunda"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "cn-bom-malacca",
+        "route_b_id": "cn-bom-lombok"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "check_port_congestion",
+      "args": {
+        "port_id": "inbom"
+      },
+      "delayMsBefore": 700
+    }
+  ],
+  "portCongestion": {
+    "portId": "inbom",
+    "portName": "Jawaharlal Nehru Port (JNPT)",
+    "unlocode": "INBOM",
+    "berthOccupancyPct": 54,
+    "anchorQueueVessels": 2,
+    "estimatedWaitHours": 4,
+    "status": "clear",
+    "note": "JNPT Container Terminal 4 has open berth slots; no anchor queue expected on current ETA window."
+  },
+  "decision": {
+    "recommendedRouteId": "cn-bom-sunda",
+    "alternativeRouteIds": [
+      "cn-bom-lombok",
+      "cn-bom-malacca"
+    ],
+    "headline": "Detour via Sunda Strait",
+    "rationale": "Sunda adds only 19 h and $34K against a 60% boarding success rate — clear call for high-value electronics cargo. Lombok is the safe alternative if Sunda sees secondary piracy alerts; adds 44 h but guarantees avoidance. Malacca direct: unjustifiable given active ReCAAP advisory.",
+    "highlightDeltas": {
+      "etaHours": 19,
+      "fuelTons": 55,
+      "fuelUsd": 34000,
+      "co2Tons": 172
+    }
+  }
+}

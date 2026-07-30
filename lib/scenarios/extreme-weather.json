@@ -1,0 +1,303 @@
+{
+  "id": "extreme-weather",
+  "label": "Extreme Weather Alert",
+  "flavor": "Cyclone bypass · severity 5",
+  "vessel": {
+    "id": "mv-bay-star",
+    "name": "MV Bay Star",
+    "imo": "9743120",
+    "type": "Bulk Carrier · 75,000 DWT",
+    "position": [79.87, 6.93],
+    "headingDeg": 185,
+    "cargoManifest": [
+      { "item": "Steel coils", "tons": 42000 },
+      { "item": "Grain (bagged)", "tons": 28000 }
+    ]
+  },
+  "voyage": {
+    "from": {
+      "id": "lkcmb",
+      "name": "Colombo",
+      "country": "LK",
+      "unlocode": "LKCMB",
+      "position": [79.87, 6.93]
+    },
+    "to": {
+      "id": "bdcgp",
+      "name": "Chittagong",
+      "country": "BD",
+      "unlocode": "BDCGP",
+      "position": [91.83, 22.33]
+    }
+  },
+  "routes": [
+    {
+      "id": "bay-direct",
+      "label": "Direct — Bay of Bengal (Hazardous)",
+      "isCurrent": true,
+      "waypoints": [
+        [79.87, 6.93],
+        [79.0,  6.0 ],
+        [79.0,  5.5 ],
+        [81.5,  5.5 ],
+        [83.0,  7.0 ],
+        [84.5,  9.0 ],
+        [85.5,  11.0],
+        [87.0,  13.5],
+        [88.5,  16.0],
+        [89.5,  18.5],
+        [90.5,  20.5],
+        [91.83, 22.33]
+      ],
+      "distanceNm": 1385,
+      "etaHours": 77
+    },
+    {
+      "id": "bay-northern-bypass",
+      "label": "Northern Coastal Bypass (Recommended)",
+      "isCurrent": false,
+      "waypoints": [
+        [79.87, 6.93],
+        [79.0,  6.0 ],
+        [79.0,  5.5 ],
+        [81.5,  5.5 ],
+        [83.0,  7.0 ],
+        [83.5,  9.0 ],
+        [83.0,  11.5],
+        [82.5,  13.5],
+        [83.5,  16.0],
+        [84.5,  18.0],
+        [87.0,  20.5],
+        [90.5,  21.5],
+        [91.83, 22.33]
+      ],
+      "distanceNm": 1595,
+      "etaHours": 89
+    },
+    {
+      "id": "bay-southern-bypass",
+      "label": "Southern Deep-Sea Bypass",
+      "isCurrent": false,
+      "waypoints": [
+        [79.87, 6.93],
+        [79.0,  6.0 ],
+        [79.0,  5.5 ],
+        [81.5,  5.5 ],
+        [84.0,  6.5 ],
+        [86.5,  7.0 ],
+        [89.5,  8.5 ],
+        [90.5,  11.0],
+        [91.0,  14.5],
+        [91.5,  18.0],
+        [91.5,  21.0],
+        [91.83, 22.33]
+      ],
+      "distanceNm": 1740,
+      "etaHours": 97
+    }
+  ],
+  "chokepoint": {
+    "id": "bay_bengal_cyclone",
+    "name": "Bay of Bengal Cyclone Zone",
+    "position": [87.2, 13.5],
+    "polygon": [
+      [83.5, 10.0],
+      [91.0, 10.0],
+      [91.0, 17.5],
+      [83.5, 17.5],
+      [83.5, 10.0]
+    ],
+    "severity": 5,
+    "status": "extreme_weather",
+    "summary": "Category 5 Cyclone Asha. Sustained winds 140 kt, central pressure 945 mb. Sig. wave height 9.2 m. Direct route fully intersects storm core.",
+    "transitDelayHours": 48
+  },
+  "advisory": {
+    "id": "weather-bay-bengal-cyclone",
+    "chokepointId": "bay_bengal_cyclone",
+    "title": "Cyclone Asha — Bay of Bengal",
+    "severity": 5,
+    "summary": "Category 5 cyclone with 140-kt sustained winds and 9.2 m wave heights directly blocks the planned route. IMO urges immediate diversion. All direct transits suspended by maritime authorities.",
+    "sources": [
+      {
+        "title": "India Meteorological Department — Cyclone Asha Alert",
+        "url": "https://www.imd.gov.in/",
+        "domain": "imd.gov.in"
+      },
+      {
+        "title": "IMO MSC circular on extreme weather routing",
+        "url": "https://www.imo.org/",
+        "domain": "imo.org"
+      },
+      {
+        "title": "JTWC Tropical Cyclone Advisory — Bay of Bengal",
+        "url": "https://www.metoc.navy.mil/jtwc/",
+        "domain": "metoc.navy.mil"
+      }
+    ]
+  },
+  "orchestratorScript": [
+    {
+      "tool": "check_weather_hazards",
+      "args": {},
+      "delayMsBefore": 600
+    },
+    {
+      "tool": "check_chokepoint_status",
+      "args": {
+        "chokepoint_id": "bay_bengal_cyclone"
+      },
+      "delayMsBefore": 800
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "bay-direct"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "bay-northern-bypass"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "bay-southern-bypass"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "bay-direct",
+        "route_b_id": "bay-northern-bypass"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "bay-direct",
+        "route_b_id": "bay-southern-bypass"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "check_port_congestion",
+      "args": {
+        "port_id": "bdcgp"
+      },
+      "delayMsBefore": 700
+    }
+  ],
+  "portCongestion": {
+    "portId": "bdcgp",
+    "portName": "Chittagong Port",
+    "unlocode": "BDCGP",
+    "berthOccupancyPct": 74,
+    "anchorQueueVessels": 6,
+    "estimatedWaitHours": 11,
+    "status": "moderate",
+    "note": "Vessel arrivals delayed by cyclone diversion surge. Jetty 6 and 7 available for bulk. Estimated 11-h wait at anchor before berth allocation."
+  },
+  "weatherHazards": [
+    {
+      "id": "asha-cyclone-core",
+      "type": "cyclone",
+      "severity": 5,
+      "label": "Cyclone Asha — Category 5 Core",
+      "center": [87.2, 13.5],
+      "polygon": [
+        [85.2, 13.5], [85.5, 14.8], [86.3, 15.8],
+        [87.2, 16.2], [88.1, 15.8], [88.9, 14.8],
+        [89.2, 13.5], [88.9, 12.2], [88.1, 11.2],
+        [87.2, 10.8], [86.3, 11.2], [85.5, 12.2],
+        [85.2, 13.5]
+      ],
+      "movement": { "directionDeg": 320, "speedKts": 12 },
+      "metadata": {
+        "windSpeedKts": 140,
+        "waveHeightM": 9.2,
+        "rainfallMm": 38,
+        "pressureMb": 945
+      },
+      "updatedAt": "2026-07-29T12:00:00Z"
+    },
+    {
+      "id": "asha-outer-bands",
+      "type": "swell",
+      "severity": 4,
+      "label": "Cyclone Asha — Outer Rain Bands & Swell",
+      "center": [88.8, 11.5],
+      "polygon": [
+        [85.5, 10.0], [87.0, 9.5], [89.5, 9.8],
+        [91.0, 11.0], [91.5, 13.0], [90.8, 15.0],
+        [89.0, 16.5], [87.0, 16.8], [85.5, 15.5],
+        [84.5, 13.5], [84.8, 11.5], [85.5, 10.0]
+      ],
+      "movement": { "directionDeg": 315, "speedKts": 10 },
+      "metadata": {
+        "windSpeedKts": 78,
+        "waveHeightM": 5.8,
+        "rainfallMm": 18,
+        "pressureMb": 985
+      },
+      "updatedAt": "2026-07-29T12:00:00Z"
+    }
+  ],
+  "weatherAssessment": {
+    "hazardous": true,
+    "intersectingHazards": [
+      {
+        "id": "asha-cyclone-core",
+        "type": "cyclone",
+        "severity": 5,
+        "label": "Cyclone Asha — Category 5 Core",
+        "center": [87.2, 13.5],
+        "polygon": [
+          [85.2, 13.5], [85.5, 14.8], [86.3, 15.8],
+          [87.2, 16.2], [88.1, 15.8], [88.9, 14.8],
+          [89.2, 13.5], [88.9, 12.2], [88.1, 11.2],
+          [87.2, 10.8], [86.3, 11.2], [85.5, 12.2],
+          [85.2, 13.5]
+        ],
+        "movement": { "directionDeg": 320, "speedKts": 12 },
+        "metadata": {
+          "windSpeedKts": 140,
+          "waveHeightM": 9.2,
+          "rainfallMm": 38,
+          "pressureMb": 945
+        },
+        "updatedAt": "2026-07-29T12:00:00Z"
+      }
+    ],
+    "maxSeverity": 5,
+    "hazardousRouteId": "bay-direct",
+    "recommendedRouteId": "bay-northern-bypass",
+    "projectedImpactHours": 24,
+    "recommendation": "Immediate diversion required. Northern coastal bypass clears the cyclone track by 380 nm. Avoid direct Bay of Bengal transit until Cyclone Asha dissipates.",
+    "source": "live",
+    "updatedAt": "2026-07-29T12:00:00Z"
+  },
+  "decision": {
+    "recommendedRouteId": "bay-northern-bypass",
+    "alternativeRouteIds": ["bay-southern-bypass", "bay-direct"],
+    "headline": "Divert via Northern Coastal Bypass — Cyclone Asha",
+    "rationale": "Cyclone Asha (Cat 5, 140 kt, 945 mb) directly intersects the planned route at approx. 87°E 13.5°N with predicted passage within 12 hours. The northern coastal bypass hugs the Indian coastline and clears the storm track by 380 nm, adding only 12 hours and 38 tons of fuel — a marginal cost compared to catastrophic hull and cargo loss risk. The southern bypass is viable but adds 20 hours and risks catching trailing swell bands. Recommended: Northern Coastal Bypass. Alternative: Southern Deep-Sea Bypass. Do not proceed on direct course.",
+    "highlightDeltas": {
+      "etaHours": 12,
+      "fuelTons": 38,
+      "fuelUsd": 23560,
+      "co2Tons": 118
+    }
+  },
+  "cameraOverride": {
+    "longitude": 87.0,
+    "latitude": 14.5,
+    "zoom": 4.0
+  }
+}

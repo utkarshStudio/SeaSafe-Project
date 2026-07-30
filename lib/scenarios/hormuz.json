@@ -1,0 +1,467 @@
+{
+  "id": "hormuz",
+  "label": "Strait of Hormuz Seizure Risk",
+  "flavor": "Loading-port switch · severity 3",
+  "vessel": {
+    "id": "mt-arabian-star",
+    "name": "MT Arabian Star",
+    "imo": "9650432",
+    "type": "VLCC · 300,000 DWT (ballast)",
+    "position": [
+      103.85,
+      1.29
+    ],
+    "headingDeg": 305,
+    "cargoManifest": []
+  },
+  "voyage": {
+    "from": {
+      "id": "sgsin",
+      "name": "Singapore",
+      "country": "SG",
+      "unlocode": "SGSIN",
+      "position": [
+        103.85,
+        1.29
+      ]
+    },
+    "to": {
+      "id": "aedas",
+      "name": "Das Island",
+      "country": "AE",
+      "unlocode": "AEDAS",
+      "position": [
+        52.87,
+        25.13
+      ]
+    }
+  },
+  "routes": [
+    {
+      "id": "ballast-das-island",
+      "label": "Das Island via Hormuz",
+      "isCurrent": true,
+      "waypoints": [
+        [
+          103.85,
+          1.29
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          90,
+          6.4664
+        ],
+        [
+          85.9479,
+          6.1983
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          70,
+          10
+        ],
+        [
+          67.3246,
+          12.5298
+        ],
+        [
+          64.5965,
+          15.0326
+        ],
+        [
+          61.6475,
+          17.284
+        ],
+        [
+          59,
+          20
+        ],
+        [
+          60.4,
+          22.7
+        ],
+        [
+          59,
+          24
+        ],
+        [
+          57.1,
+          25.5
+        ],
+        [
+          56.4,
+          26.4
+        ],
+        [
+          55.2,
+          25.6
+        ],
+        [
+          53.8,
+          24.7
+        ],
+        [
+          52.1,
+          24.7
+        ]
+      ],
+      "distanceNm": 3600,
+      "etaHours": 200
+    },
+    {
+      "id": "ballast-fujairah",
+      "label": "Fujairah (bypass Hormuz)",
+      "isCurrent": false,
+      "waypoints": [
+        [
+          103.85,
+          1.29
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          90,
+          6.4664
+        ],
+        [
+          85.9479,
+          6.1983
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          70,
+          10
+        ],
+        [
+          67.3246,
+          12.5298
+        ],
+        [
+          64.5965,
+          15.0326
+        ],
+        [
+          61.6475,
+          17.284
+        ],
+        [
+          59,
+          20
+        ],
+        [
+          60.4,
+          22.7
+        ],
+        [
+          59,
+          24
+        ],
+        [
+          57.1,
+          25.5
+        ]
+      ],
+      "distanceNm": 2475,
+      "etaHours": 138
+    },
+    {
+      "id": "ballast-khor-fakkan",
+      "label": "Khor Fakkan (partial bypass)",
+      "isCurrent": false,
+      "waypoints": [
+        [
+          103.85,
+          1.29
+        ],
+        [
+          103.6,
+          1.1
+        ],
+        [
+          102,
+          2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          100.6,
+          3.2
+        ],
+        [
+          97,
+          7
+        ],
+        [
+          94,
+          6.7
+        ],
+        [
+          90,
+          6.4664
+        ],
+        [
+          85.9479,
+          6.1983
+        ],
+        [
+          81.9,
+          5.9
+        ],
+        [
+          80.1,
+          5.8
+        ],
+        [
+          77,
+          8
+        ],
+        [
+          75.3,
+          9.7
+        ],
+        [
+          70,
+          10
+        ],
+        [
+          67.3246,
+          12.5298
+        ],
+        [
+          64.5965,
+          15.0326
+        ],
+        [
+          61.6475,
+          17.284
+        ],
+        [
+          59,
+          20
+        ],
+        [
+          60.4,
+          22.7
+        ],
+        [
+          59,
+          24
+        ],
+        [
+          57.1,
+          25.5
+        ]
+      ],
+      "distanceNm": 3180,
+      "etaHours": 177
+    }
+  ],
+  "chokepoint": {
+    "id": "hormuz",
+    "name": "Strait of Hormuz",
+    "position": [
+      56.4,
+      26.5
+    ],
+    "polygon": [
+      [
+        55,
+        25
+      ],
+      [
+        57.5,
+        25
+      ],
+      [
+        57.5,
+        27.5
+      ],
+      [
+        55,
+        27.5
+      ]
+    ],
+    "severity": 3,
+    "status": "active_threat",
+    "summary": "Iranian seizure operation underway. Four commercial vessels detained in past 72h. War-risk premiums ~6x baseline."
+  },
+  "advisory": {
+    "id": "risk-hormuz",
+    "chokepointId": "hormuz",
+    "title": "Strait of Hormuz",
+    "severity": 3,
+    "summary": "Iranian seizure operation underway. Four commercial vessels detained in past 72h. War-risk premiums ~6x baseline.",
+    "sources": [
+      {
+        "title": "Iran seizes commercial vessels in Strait of Hormuz",
+        "url": "https://www.reuters.com/world/middle-east/",
+        "domain": "reuters.com"
+      },
+      {
+        "title": "Tanker operators reassess Hormuz transits after detentions",
+        "url": "https://lloydslist.com/",
+        "domain": "lloydslist.com"
+      },
+      {
+        "title": "War-risk premiums climb on Hormuz seizure fears",
+        "url": "https://www.tradewindsnews.com/",
+        "domain": "tradewindsnews.com"
+      }
+    ]
+  },
+  "orchestratorScript": [
+    {
+      "tool": "check_chokepoint_status",
+      "args": {
+        "chokepoint_id": "hormuz"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "ballast-das-island"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "ballast-fujairah"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "calculate_route_metrics",
+      "args": {
+        "route_id": "ballast-khor-fakkan"
+      },
+      "delayMsBefore": 900
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "ballast-das-island",
+        "route_b_id": "ballast-fujairah"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "compare_routes",
+      "args": {
+        "route_a_id": "ballast-das-island",
+        "route_b_id": "ballast-khor-fakkan"
+      },
+      "delayMsBefore": 700
+    },
+    {
+      "tool": "check_port_congestion",
+      "args": {
+        "port_id": "aefuj"
+      },
+      "delayMsBefore": 700
+    }
+  ],
+  "portCongestion": {
+    "portId": "aefuj",
+    "portName": "Fujairah Oil Terminal",
+    "unlocode": "AEFUJ",
+    "berthOccupancyPct": 61,
+    "anchorQueueVessels": 3,
+    "estimatedWaitHours": 6,
+    "status": "moderate",
+    "note": "Three VLCCs at anchor for STS transfer; SPM buoy 2 available. Loading window estimated 6 h from arrival."
+  },
+  "decision": {
+    "recommendedRouteId": "ballast-fujairah",
+    "alternativeRouteIds": [
+      "ballast-khor-fakkan",
+      "ballast-das-island"
+    ],
+    "headline": "Switch loading port to Fujairah · full Hormuz bypass",
+    "rationale": "Fujairah ADIPEC pipeline loading completely sidesteps the seizure zone, saving 62 h and $112K. Khor Fakkan is a viable fallback if Fujairah berths are congested — 23 h slower but still avoids the inner Strait. Original Das Island charter not recommended during active seizure operation.",
+    "highlightDeltas": {
+      "etaHours": -62,
+      "fuelTons": -180,
+      "fuelUsd": -112000,
+      "co2Tons": -560
+    }
+  }
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "mmsi": 525114060,
+    "name": "LUCIA SOLIS",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.79778,
+      1.2252
+    ],
+    "headingDeg": 145,
+    "updatedAt": 1785422282440
+  },
+  {
+    "mmsi": 572946220,
+    "name": "VARUNA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.87544,
+      1.26928
+    ],
+    "headingDeg": 76,
+    "updatedAt": 1785422277319
+  },
+  {
+    "mmsi": 256636000,
+    "name": "INTERASIA ACCELERATE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.94655,
+      1.22582
+    ],
+    "headingDeg": 75,
+    "updatedAt": 1785422276318
+  },
+  {
+    "mmsi": 563019670,
+    "name": "CLEANSEAS FERRY 2",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.79234,
+      1.23226
+    ],
+    "headingDeg": 187,
+    "updatedAt": 1785422273537
+  },
+  {
+    "mmsi": 353329000,
+    "name": "MMSI 353329000",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.88328,
+      1.19751
+    ],
+    "headingDeg": 54,
+    "updatedAt": 1785422270875
+  },
+  {
+    "mmsi": 663664300,
+    "name": "MMSI 663664300",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.79217,
+      1.15475
+    ],
+    "headingDeg": 59,
+    "updatedAt": 1785422270567
+  },
+  {
+    "mmsi": 563057800,
+    "name": "COMMITMENT",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.86939,
+      1.24672
+    ],
+    "headingDeg": 85,
+    "updatedAt": 1785422265662
+  },
+  {
+    "mmsi": 563038700,
+    "name": "MARINE SELENA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.87395,
+      1.24915
+    ],
+    "headingDeg": 66,
+    "updatedAt": 1785422262023
+  },
+  {
+    "mmsi": 352004480,
+    "name": "KAWA LIANYUNGANG",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.83305,
+      1.17473
+    ],
+    "headingDeg": 69,
+    "updatedAt": 1785422260439
+  },
+  {
+    "mmsi": 477987800,
+    "name": "CA MANILA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.57517,
+      13.5661
+    ],
+    "headingDeg": 183,
+    "updatedAt": 1785422255551
+  },
+  {
+    "mmsi": 503267800,
+    "name": "WANDA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      99.8495,
+      6.30218
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422254243
+  },
+  {
+    "mmsi": 232051435,
+    "name": "MMSI 232051435",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      99.84904,
+      6.30334
+    ],
+    "headingDeg": 349,
+    "updatedAt": 1785422254224
+  },
+  {
+    "mmsi": 565957000,
+    "name": "ISANDA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.88714,
+      1.23583
+    ],
+    "headingDeg": 55,
+    "updatedAt": 1785422250285
+  },
+  {
+    "mmsi": 5631101,
+    "name": "PSAB",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80136,
+      1.27352
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422249466
+  },
+  {
+    "mmsi": 563057600,
+    "name": "PSU THIRD",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.89075,
+      1.2077
+    ],
+    "headingDeg": 62,
+    "updatedAt": 1785422247987
+  },
+  {
+    "mmsi": 567002940,
+    "name": "THE BLUE DOLPHIN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.5027,
+      13.68486
+    ],
+    "headingDeg": 106,
+    "updatedAt": 1785422237816
+  },
+  {
+    "mmsi": 563780000,
+    "name": "SINDO 12",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.77911,
+      1.22494
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422236564
+  },
+  {
+    "mmsi": 235092455,
+    "name": "BERGE JAYA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.98695,
+      1.25459
+    ],
+    "headingDeg": 249,
+    "updatedAt": 1785422229395
+  },
+  {
+    "mmsi": 567006584,
+    "name": "PATTHARA MARINE 11",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.58153,
+      13.7018
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422229293
+  },
+  {
+    "mmsi": 563265500,
+    "name": "GOLDEN ANTARES",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.96748,
+      1.29317
+    ],
+    "headingDeg": 107,
+    "updatedAt": 1785422224494
+  },
+  {
+    "mmsi": 572549220,
+    "name": "VALLIANZ PRESTIGE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.78681,
+      1.20526
+    ],
+    "headingDeg": 151,
+    "updatedAt": 1785422222142
+  },
+  {
+    "mmsi": 636022412,
+    "name": "SINAR SANUR",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.78417,
+      1.27422
+    ],
+    "headingDeg": 122,
+    "updatedAt": 1785422217927
+  },
+  {
+    "mmsi": 563328300,
+    "name": "STRAITS WISDOM",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.96479,
+      1.29208
+    ],
+    "headingDeg": 112,
+    "updatedAt": 1785422210159
+  },
+  {
+    "mmsi": 636015407,
+    "name": "NAVE ANDROMEDA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80857,
+      1.22008
+    ],
+    "headingDeg": 94,
+    "updatedAt": 1785422209544
+  },
+  {
+    "mmsi": 567002760,
+    "name": "BUATHIP",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.59055,
+      13.68669
+    ],
+    "headingDeg": 354,
+    "updatedAt": 1785422209339
+  },
+  {
+    "mmsi": 564300000,
+    "name": "YOU SHEN 10",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.87677,
+      1.2106
+    ],
+    "headingDeg": 243,
+    "updatedAt": 1785422209134
+  },
+  {
+    "mmsi": 567002780,
+    "name": "DRAGON TEN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.55202,
+      13.6905
+    ],
+    "headingDeg": 351,
+    "updatedAt": 1785422207290
+  },
+  {
+    "mmsi": 565780000,
+    "name": "KOTA DUTA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.83575,
+      1.26393
+    ],
+    "headingDeg": 269,
+    "updatedAt": 1785422205550
+  },
+  {
+    "mmsi": 525008095,
+    "name": "MT PANGKALAN BRANDAN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.81569,
+      1.22507
+    ],
+    "headingDeg": 61,
+    "updatedAt": 1785422199879
+  },
+  {
+    "mmsi": 211250360,
+    "name": "PANDA 001",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.72914,
+      1.14434
+    ],
+    "headingDeg": 298,
+    "updatedAt": 1785422196438
+  },
+  {
+    "mmsi": 574003690,
+    "name": "TRUONG MINH STAR",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.88142,
+      1.27555
+    ],
+    "headingDeg": 32,
+    "updatedAt": 1785422195303
+  },
+  {
+    "mmsi": 339267000,
+    "name": "MMSI 339267000",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      99.84979,
+      6.30394
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422194374
+  },
+  {
+    "mmsi": 574013029,
+    "name": "TAN BINH 129",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.8848,
+      1.19625
+    ],
+    "headingDeg": 62,
+    "updatedAt": 1785422193415
+  },
+  {
+    "mmsi": 538007361,
+    "name": "PACIFIC SARAH",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80916,
+      1.22799
+    ],
+    "headingDeg": 127,
+    "updatedAt": 1785422190686
+  },
+  {
+    "mmsi": 574946000,
+    "name": "PHUC THUAN 69",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.57155,
+      13.70247
+    ],
+    "headingDeg": 288,
+    "updatedAt": 1785422190174
+  },
+  {
+    "mmsi": 636020223,
+    "name": "MXD QUANZHOU",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.91927,
+      1.28793
+    ],
+    "headingDeg": 83,
+    "updatedAt": 1785422188138
+  },
+  {
+    "mmsi": 563059500,
+    "name": "MARINE PARADE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80776,
+      1.20835
+    ],
+    "headingDeg": 124,
+    "updatedAt": 1785422180759
+  },
+  {
+    "mmsi": 566538000,
+    "name": "WISDOM",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.87055,
+      1.22383
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422180650
+  },
+  {
+    "mmsi": 538012120,
+    "name": "MAERSK NADI",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.77421,
+      1.27397
+    ],
+    "headingDeg": 31,
+    "updatedAt": 1785422176776
+  },
+  {
+    "mmsi": 431843000,
+    "name": "CHEMWAY LARA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.76005,
+      1.17845
+    ],
+    "headingDeg": 92,
+    "updatedAt": 1785422174215
+  },
+  {
+    "mmsi": 563927000,
+    "name": "STRAITS MUNIFICENT",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80568,
+      1.20574
+    ],
+    "headingDeg": 123,
+    "updatedAt": 1785422173805
+  },
+  {
+    "mmsi": 414728000,
+    "name": "AN XING ZUO",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.90287,
+      1.25037
+    ],
+    "headingDeg": 72,
+    "updatedAt": 1785422172029
+  },
+  {
+    "mmsi": 567002520,
+    "name": "NP CHUMPHON",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.56766,
+      13.6567
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422169753
+  },
+  {
+    "mmsi": 477581500,
+    "name": "KEYSTONE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.93603,
+      1.2904
+    ],
+    "headingDeg": 107,
+    "updatedAt": 1785422157281
+  },
+  {
+    "mmsi": 567002160,
+    "name": "NS311",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.55484,
+      13.65456
+    ],
+    "headingDeg": 221,
+    "updatedAt": 1785422157207
+  },
+  {
+    "mmsi": 563250600,
+    "name": "MAJESTIC HARMONY",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.82009,
+      1.26225
+    ],
+    "headingDeg": 275,
+    "updatedAt": 1785422156280
+  },
+  {
+    "mmsi": 525500422,
+    "name": "TB. BUANA BETA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.86829,
+      1.24841
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422153421
+  },
+  {
+    "mmsi": 563067430,
+    "name": "NOC 7@@@@@@@@@@@@@CL",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.75837,
+      1.19089
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422144319
+  },
+  {
+    "mmsi": 312871000,
+    "name": "SEA PELICAN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.85481,
+      1.27064
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422143906
+  },
+  {
+    "mmsi": 563012720,
+    "name": "CLEANSEAS UNITED",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80551,
+      1.22531
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422143188
+  },
+  {
+    "mmsi": 636019929,
+    "name": "IMPERIAL",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80109,
+      1.20347
+    ],
+    "headingDeg": 130,
+    "updatedAt": 1785422137339
+  },
+  {
+    "mmsi": 567533000,
+    "name": "ULAYA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.92999,
+      1.2916
+    ],
+    "headingDeg": 113,
+    "updatedAt": 1785422126737
+  },
+  {
+    "mmsi": 525601594,
+    "name": "TB AMADEUS 1",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.82813,
+      1.26254
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422125781
+  },
+  {
+    "mmsi": 667002556,
+    "name": "H7SFC1",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.89115,
+      1.28093
+    ],
+    "headingDeg": 112,
+    "updatedAt": 1785422118307
+  },
+  {
+    "mmsi": 305079300,
+    "name": "BSL ADAM",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.88554,
+      1.25582
+    ],
+    "headingDeg": 78,
+    "updatedAt": 1785422117722
+  },
+  {
+    "mmsi": 566612000,
+    "name": "SEA ENDURANCE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.93983,
+      1.28783
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422115950
+  },
+  {
+    "mmsi": 566639000,
+    "name": "TRINITY",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.79374,
+      1.24212
+    ],
+    "headingDeg": 117,
+    "updatedAt": 1785422115336
+  },
+  {
+    "mmsi": 256311000,
+    "name": "CMA CGM GEORGE SAND",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.78985,
+      1.26177
+    ],
+    "headingDeg": 31,
+    "updatedAt": 1785422110728
+  },
+  {
+    "mmsi": 564151000,
+    "name": "KWK EXCELSUS",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.90531,
+      1.25865
+    ],
+    "headingDeg": 76,
+    "updatedAt": 1785422107246
+  },
+  {
+    "mmsi": 636026134,
+    "name": "BELGIUM B",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80209,
+      1.17277
+    ],
+    "headingDeg": 256,
+    "updatedAt": 1785422106734
+  },
+  {
+    "mmsi": 563013850,
+    "name": "GP44",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.84143,
+      1.2572
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422103563
+  },
+  {
+    "mmsi": 574005860,
+    "name": "AULAC EAGLE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.79737,
+      1.2395
+    ],
+    "headingDeg": 105,
+    "updatedAt": 1785422089295
+  },
+  {
+    "mmsi": 372153000,
+    "name": "CHANG YUN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.57427,
+      13.70401
+    ],
+    "headingDeg": 288,
+    "updatedAt": 1785422088472
+  },
+  {
+    "mmsi": 357490000,
+    "name": "HOANG ANH 05",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.56631,
+      13.6559
+    ],
+    "headingDeg": 62,
+    "updatedAt": 1785422064955
+  },
+  {
+    "mmsi": 564034000,
+    "name": "MERLION 8",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.74077,
+      1.19726
+    ],
+    "headingDeg": 154,
+    "updatedAt": 1785422056543
+  },
+  {
+    "mmsi": 566385000,
+    "name": "STRAITS QUEST",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.80658,
+      1.21378
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422052649
+  },
+  {
+    "mmsi": 563023490,
+    "name": "EVER JOYCE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.90134,
+      1.27834
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785422051830
+  },
+  {
+    "mmsi": 352005031,
+    "name": "MMSI 352005031",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.9469,
+      1.2718
+    ],
+    "headingDeg": 10,
+    "updatedAt": 1785422050396
+  },
+  {
+    "mmsi": 477833700,
+    "name": "CUL YANGPU",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.86562,
+      1.19014
+    ],
+    "headingDeg": 66,
+    "updatedAt": 1785422034217
+  },
+  {
+    "mmsi": 253000213,
+    "name": "SEA PATRIS",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.8834,
+      1.27017
+    ],
+    "headingDeg": 85,
+    "updatedAt": 1785422031658
+  },
+  {
+    "mmsi": 566982000,
+    "name": "HY EMERALD",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.90262,
+      1.26205
+    ],
+    "headingDeg": 66,
+    "updatedAt": 1785422020874
+  },
+  {
+    "mmsi": 249935000,
+    "name": "FELICITY",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.78015,
+      1.21246
+    ],
+    "headingDeg": 118,
+    "updatedAt": 1785422012912
+  },
+  {
+    "mmsi": 352005831,
+    "name": "VAMS ATLAN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.89833,
+      1.27265
+    ],
+    "headingDeg": 96,
+    "updatedAt": 1785421997169
+  },
+  {
+    "mmsi": 567067400,
+    "name": "CHUTIPA5",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.5621,
+      13.70735
+    ],
+    "headingDeg": 282,
+    "updatedAt": 1785421980866
+  },
+  {
+    "mmsi": 563086090,
+    "name": "PILOT 16",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.89152,
+      1.26248
+    ],
+    "headingDeg": 83,
+    "updatedAt": 1785421974931
+  },
+  {
+    "mmsi": 525022371,
+    "name": "EKAPUTRA 1",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.94726,
+      1.18611
+    ],
+    "headingDeg": 101,
+    "updatedAt": 1785421971650
+  },
+  {
+    "mmsi": 357461000,
+    "name": "ASHICO HARMONY",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.57674,
+      13.60842
+    ],
+    "headingDeg": 267,
+    "updatedAt": 1785421955532
+  },
+  {
+    "mmsi": 567100001,
+    "name": "O.P.K.3",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.58134,
+      13.70252
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785421951538
+  },
+  {
+    "mmsi": 563080160,
+    "name": "MPA GUARDIAN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.90842,
+      1.28938
+    ],
+    "headingDeg": 128,
+    "updatedAt": 1785421949252
+  },
+  {
+    "mmsi": 567000011,
+    "name": "RUA DIN 11",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.58011,
+      13.70212
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785421942465
+  },
+  {
+    "mmsi": 563328600,
+    "name": "PEARL OASIS",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.95956,
+      1.29793
+    ],
+    "headingDeg": 93,
+    "updatedAt": 1785421916559
+  },
+  {
+    "mmsi": 533150044,
+    "name": "COUGAR SATU",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.79519,
+      1.24252
+    ],
+    "headingDeg": 127,
+    "updatedAt": 1785421898709
+  },
+  {
+    "mmsi": 533110249,
+    "name": "MMSI 533110249",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      99.8014,
+      6.30793
+    ],
+    "headingDeg": 117,
+    "updatedAt": 1785421894234
+  },
+  {
+    "mmsi": 565771000,
+    "name": "KOTA SEJATI",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.83332,
+      1.26383
+    ],
+    "headingDeg": 267,
+    "updatedAt": 1785421879591
+  },
+  {
+    "mmsi": 357874000,
+    "name": "EVER USEFUL",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.9263,
+      1.24601
+    ],
+    "headingDeg": 84,
+    "updatedAt": 1785421868634
+  },
+  {
+    "mmsi": 413222810,
+    "name": "ZHONG GU BO HAI",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.58378,
+      13.69839
+    ],
+    "headingDeg": 317,
+    "updatedAt": 1785421866248
+  },
+  {
+    "mmsi": 357276000,
+    "name": "DONG MINH",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.73035,
+      1.29203
+    ],
+    "headingDeg": 151,
+    "updatedAt": 1785421866034
+  },
+  {
+    "mmsi": 563312600,
+    "name": "ASIAN PROGRESS VII",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.97169,
+      1.27172
+    ],
+    "headingDeg": 67,
+    "updatedAt": 1785421864332
+  },
+  {
+    "mmsi": 563267000,
+    "name": "KOTA LOCENG",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.83733,
+      1.26289
+    ],
+    "headingDeg": 133,
+    "updatedAt": 1785421863718
+  },
+  {
+    "mmsi": 538007820,
+    "name": "TS OSAKA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.58513,
+      13.69724
+    ],
+    "headingDeg": 315,
+    "updatedAt": 1785421850406
+  },
+  {
+    "mmsi": 563233400,
+    "name": "PEARL  LEGACY",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.97032,
+      1.29235
+    ],
+    "headingDeg": 99,
+    "updatedAt": 1785421846515
+  },
+  {
+    "mmsi": 636025210,
+    "name": "MARMOLADA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.95788,
+      1.27094
+    ],
+    "headingDeg": 59,
+    "updatedAt": 1785421845798
+  },
+  {
+    "mmsi": 369970579,
+    "name": "MMSI 369970579",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.54687,
+      13.73685
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785421841599
+  },
+  {
+    "mmsi": 533110564,
+    "name": "ANGELINE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      99.84977,
+      6.30211
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785421834127
+  },
+  {
+    "mmsi": 563086590,
+    "name": "PSA SUCCESS CS10",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.77787,
+      1.27156
+    ],
+    "headingDeg": 231,
+    "updatedAt": 1785421799566
+  },
+  {
+    "mmsi": 352005925,
+    "name": "SOUTHERN RESONANCE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.91784,
+      1.26054
+    ],
+    "headingDeg": 79,
+    "updatedAt": 1785421792205
+  },
+  {
+    "mmsi": 563235700,
+    "name": "TITANIA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.89462,
+      1.26768
+    ],
+    "headingDeg": 88,
+    "updatedAt": 1785421791558
+  },
+  {
+    "mmsi": 258640000,
+    "name": "CLIPPER NEPTUN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.76559,
+      1.18101
+    ],
+    "headingDeg": 97,
+    "updatedAt": 1785421791012
+  },
+  {
+    "mmsi": 548849000,
+    "name": "HIMALA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.8914,
+      1.26271
+    ],
+    "headingDeg": 70,
+    "updatedAt": 1785421759371
+  },
+  {
+    "mmsi": 567000830,
+    "name": "NP SURATTHANI 2",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      99.35287,
+      9.16968
+    ],
+    "headingDeg": 49,
+    "updatedAt": 1785421737559
+  }
+]
