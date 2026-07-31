@@ -92,7 +92,7 @@ npm install
 Create a `.env.local` file.
 
 ```env
-AISSTREAM_API_KEY=YOUR_AISSTREAM_API_KEY
+AISSTREAM_API_KEY=187c98c9012253605cf7edcff61c608ced99ec6a
 ```
 
 ## 4. Start the Development Server
@@ -114,4 +114,3 @@ npx tsx scripts/ais-collector-ws.mjs
 ```
 
 Keep this process running to receive live ship updates.
-````
