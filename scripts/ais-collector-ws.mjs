@@ -62,14 +62,35 @@ if (API_KEY === "YOUR_FREE_API_KEY_HERE") {
 }
 
 let socket;
+let reconnectDelay = 5000;
+let reconnectTimer = null;
+
+function scheduleReconnect(reason) {
+  if (reconnectTimer) return;
+  console.log(`WebSocket disconnected (${reason}). Reconnecting in ${Math.round(reconnectDelay / 1000)} seconds...`);
+  reconnectTimer = setTimeout(() => {
+    reconnectTimer = null;
+    connect();
+  }, reconnectDelay);
+  
+  // Exponential backoff up to 60 seconds max
+  reconnectDelay = Math.min(reconnectDelay * 2, 60000);
+}
+
 function connect() {
   console.log(`Connecting to aisstream.io global WebSocket stream...`);
   
-  // Using native WebSocket supported in Node.js 22+
-  socket = new WebSocket(HOST);
+  try {
+    socket = new WebSocket(HOST);
+  } catch (err) {
+    console.error('Failed to create WebSocket client:', err.message);
+    scheduleReconnect('socket initialization error');
+    return;
+  }
 
   socket.onopen = () => {
     console.log(`CONNECTED successfully to aisstream.io WebSocket! Sending subscription...`);
+    reconnectDelay = 5000; // Reset backoff on successful connection
     
     // Subscribe to Gulf of Aden / Red Sea, Strait of Hormuz, and Strait of Malacca bounding boxes
     const subscription = {
@@ -124,13 +145,17 @@ function connect() {
   };
 
   socket.onclose = () => {
-    console.log('WebSocket connection closed. Reconnecting in 5 seconds...');
-    setTimeout(connect, 5000);
+    scheduleReconnect('connection closed');
   };
 
   socket.onerror = (err) => {
-    console.error('WebSocket error occurred:', err);
+    if (err.message && err.message.includes('429')) {
+      console.warn('[AIS Stream] Rate limited (HTTP 429). Note: AISStream allows only 1 concurrent connection per API Key.');
+    } else {
+      console.error('WebSocket error:', err.message || err);
+    }
   };
 }
 
 connect();
+
