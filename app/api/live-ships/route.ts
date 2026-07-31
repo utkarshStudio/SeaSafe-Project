@@ -5,6 +5,13 @@ import type { Vessel } from "@/lib/types";
 import fs from "fs";
 import path from "path";
 
+interface LiveCacheVessel {
+  mmsi?: number | string;
+  name?: string;
+  imo?: number | string;
+  type?: string;
+}
+
 const MOCK_SHIP_DATA = [
   { name: "MSC Daniela", type: "Container Ship", imo: "9399002" },
   { name: "Maersk McKinney", type: "Container Ship", imo: "9632064" },
@@ -53,7 +60,7 @@ export async function GET(request: Request) {
   }
 
   // Attempt to read the live AIS collector cache file
-  let liveCacheVessels: Record<string, unknown>[] = [];
+  let liveCacheVessels: LiveCacheVessel[] = [];
   const cachePath = path.join(process.cwd(), "public/data/live-ais-cache.json");
   if (fs.existsSync(cachePath)) {
     try {
@@ -89,10 +96,10 @@ export async function GET(request: Request) {
 
     if (liveVessel) {
       return {
-        id: `live-ship-${routeId}-${idx}-${liveVessel.mmsi}`,
-        name: liveVessel.name,
-        imo: liveVessel.imo ? String(liveVessel.imo) : `MMSI ${liveVessel.mmsi}`,
-        type: liveVessel.type || "Cargo Vessel",
+        id: `live-ship-${routeId}-${idx}-${liveVessel.mmsi || idx}`,
+        name: String(liveVessel.name || `Live Ship ${idx + 1}`),
+        imo: liveVessel.imo ? String(liveVessel.imo) : `MMSI ${liveVessel.mmsi || idx}`,
+        type: String(liveVessel.type || "Cargo Vessel"),
         position: posCurrent, // Distributed along the route waypoints!
         headingDeg: heading,
         cargoManifest: [
