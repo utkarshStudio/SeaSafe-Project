@@ -287,7 +287,7 @@ npm install
 Create a file named `.env.local`
 
 ```env
-AISSTREAM_API_KEY=YOUR_API_KEY
+AISSTREAM_API_KEY=187c98c9012253605cf7edcff61c608ced99ec6a
 ```
 
 ---
