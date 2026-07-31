@@ -2,13 +2,14 @@
 
 <div align="center">
 
-### Smart Maritime Route Intelligence & Compliance Copilot
+# Smart Maritime Route Intelligence & Compliance Copilot
 
-SeaSafe AI is an intelligent maritime dashboard that helps captains and shipping operators make safer navigation decisions using **live AIS ship tracking**, **weather visualization**, **interactive maps**, **route comparison**, and **AI-assisted operational insights**.
+**SeaSafe AI** is an intelligent maritime decision support platform that helps captains and shipping operators make safer, smarter, and faster navigation decisions.
 
-🌐 **Live Demo:** https://flourishing-kulfi-d7ae9e.netlify.app/
+It combines **live AIS ship tracking**, **interactive maritime maps**, **weather visualization**, **AI-assisted route analysis**, and **route comparison** into a single Bridge Console designed for modern maritime operations.
 
-📂 **GitHub Repository:** https://github.com/utkarshStudio/TryHard-BuildWithBharat-SeaSafe
+[🌐 Live Demo](https://flourishing-kulfi-d7ae9e.netlify.app/) •
+[📂 GitHub Repository](https://github.com/utkarshStudio/TryHard-BuildWithBharat-SeaSafe)
 
 Built for **Build With Bharat National Hackathon**
 
@@ -16,289 +17,461 @@ Built for **Build With Bharat National Hackathon**
 
 ---
 
+# 📑 Table of Contents
+
+- Overview
+- Problem Statement
+- Our Solution
+- Key Features
+- System Architecture
+- Real vs Simulated Data
+- Technology Stack
+- Project Structure
+- Installation
+- Environment Variables
+- Running the Project
+- Workflow
+- Future Scope
+- Team
+- License
+
+---
+
 # 📖 Overview
 
-SeaSafe AI is a modern maritime decision support platform designed to improve operational awareness during voyage planning.
+SeaSafe AI is a modern maritime route intelligence platform that provides captains and shipping operators with a unified dashboard for navigation awareness and route planning.
 
-Shipping companies and vessel operators constantly deal with changing weather conditions, heavy vessel traffic, port congestion, and navigational hazards. Information is often spread across multiple systems, making route planning time-consuming and difficult.
+Instead of relying on multiple disconnected systems, SeaSafe centralizes operational information into a single interface where users can monitor vessel traffic, inspect weather conditions, compare navigation routes, and receive AI-assisted operational recommendations.
 
-SeaSafe combines these services into one unified dashboard where users can visualize maritime traffic, monitor weather conditions, compare voyage routes, and receive AI-assisted route assessments.
+The dashboard is designed to improve situational awareness, simplify operational decision-making, and demonstrate how modern web technologies can enhance maritime safety.
 
-The project demonstrates how modern web technologies and real-time maritime data can simplify operational decision-making.
+SeaSafe combines interactive visualization with intelligent route analysis, making maritime information easier to understand and act upon.
 
 ---
 
 # ❓ Problem Statement
 
-More than **95% of India's international trade** is transported by sea.
+Maritime transportation carries more than **95% of India's international trade**, making shipping one of the country's most critical industries.
 
-Every day ships travel through congested waterways, changing weather systems, and operational bottlenecks. Captains frequently switch between multiple platforms to gather information before making navigation decisions.
+Every voyage is affected by multiple dynamic factors including:
 
-Current workflow typically involves:
+- Heavy vessel traffic
+- Changing weather conditions
+- Port congestion
+- Navigation hazards
+- Maritime chokepoints
+- Operational risks
+
+Today, bridge officers and operators often depend on several independent platforms to gather this information.
+
+Typical workflow includes switching between:
 
 - Vessel tracking websites
-- Weather portals
+- Weather forecasting platforms
 - Navigation charts
-- Email reports
-- Manual route analysis
+- Email advisories
+- PDF reports
+- Manual route planning tools
 
-This fragmented workflow increases decision-making time.
-
-SeaSafe addresses this challenge by bringing route intelligence, weather visualization, vessel tracking, and AI-generated insights together in one dashboard.
+This fragmented process increases operational complexity and slows down decision-making during critical situations.
 
 ---
 
 # 💡 Our Solution
 
-SeaSafe provides a single intelligent bridge console where maritime operators can:
+SeaSafe AI solves this problem by bringing multiple maritime services into a single intelligent dashboard.
 
-- Monitor nearby vessels
-- Visualize live weather
-- Compare navigation routes
+The platform enables operators to:
+
+- Monitor nearby vessels in real time
+- View live maritime weather conditions
+- Compare multiple navigation routes
 - Analyze operational risks
-- Receive AI-assisted assessments
-- Make informed routing decisions
+- Receive AI-assisted route assessments
+- Improve overall voyage awareness
 
-Everything is available through one interactive dashboard.
+Instead of switching between multiple applications, operators can access all essential navigation information from one Bridge Console.
 
 ---
 
-# ✨ Features
+# 🌟 Why SeaSafe?
+
+SeaSafe focuses on providing an intuitive and intelligent maritime experience.
+
+Unlike traditional systems that separate navigation, weather, and traffic information, SeaSafe integrates them into one interactive workspace.
+
+The platform is designed to provide:
+
+- Better situational awareness
+- Faster operational decisions
+- Improved route understanding
+- Interactive visualization
+- Modern user experience
+- AI-assisted operational guidance
+
+This makes SeaSafe an effective demonstration of how intelligent software can support safer maritime navigation.
+
+---
+
+# ✨ Key Features
 
 ## 🚢 Live AIS Ship Tracking
 
-SeaSafe displays real ships using live AIS data streamed through WebSockets.
+SeaSafe displays live vessel positions received through the AISStream WebSocket service.
 
-Features include:
+Operators can monitor nearby ships in real time while viewing detailed vessel information such as:
 
-- Real-time ship locations
-- Vessel names
-- Ship types
-- IMO numbers
-- Continuous position updates
+- Ship Name
+- MMSI
+- IMO Number
+- Vessel Type
+- Live Position
+- Heading
+- Speed
+
+The map updates continuously as new AIS messages arrive.
 
 ---
 
 ## 🗺 Interactive Maritime Map
 
-The application provides a fully interactive map where users can:
+The dashboard is centered around a fully interactive maritime map built using MapLibre GL.
 
-- Zoom and pan
-- Inspect ships
-- Explore navigation routes
-- View operational information
+Users can:
+
+- Zoom
+- Pan
+- Inspect vessels
+- Explore routes
 - Monitor surrounding traffic
+- Navigate across different regions
+
+The map serves as the primary operational interface of the application.
 
 ---
 
 ## 🌍 Multiple Map Themes
 
-Users can switch between different map styles including:
+SeaSafe provides multiple visualization styles to improve readability under different scenarios.
+
+Available themes include:
 
 - Nautical Chart
 - Satellite View
 - Green Theme
 - Blue Theme
 
-These themes improve visualization for different operational scenarios.
+Users can instantly switch between themes without interrupting the navigation experience.
 
 ---
 
 ## 🌦 Live Weather Visualization
 
-Weather information is integrated directly into the dashboard.
+SeaSafe integrates live weather information directly into the maritime map.
 
-Current overlays include:
+Weather visualization includes:
 
-- Wind
-- Rain
-- Weather systems
-- Wave conditions
-
-This allows operators to identify potentially hazardous weather before selecting a route.
-
----
+- Wind conditions
+- Rain information
+- Weather overlays
+- Environmental conditions
 
 ## 🤖 AI Route Advisor
 
-SeaSafe includes an AI-powered assessment engine.
+SeaSafe includes an intelligent AI Orchestrator that assists operators in evaluating maritime situations and understanding route conditions.
 
-When users click **Assess Situation**, the AI analyzes available information and generates an operational explanation describing:
+When the **Assess Situation** button is clicked, the AI processes the selected voyage scenario together with available route, weather, and operational information to generate a clear assessment.
 
-- Current navigation conditions
-- Weather impact
-- Route observations
-- Operational recommendations
+The AI provides:
+
+- Route assessment
+- Operational observations
+- Weather impact analysis
+- Navigation recommendations
+- Decision support summary
+
+The AI is powered by **Local Llama 3.2 running through Ollama**, allowing inference to run locally without relying on cloud-based AI services.
 
 ---
 
 ## 📊 Route Comparison
 
-The dashboard compares multiple voyage routes, allowing users to evaluate different navigation options before making a decision.
+SeaSafe allows operators to compare multiple navigation routes before making operational decisions.
+
+Each available route can be evaluated using important voyage parameters, helping users understand the trade-offs between different navigation options.
+
+The comparison interface provides information such as:
+
+- Estimated route distance
+- Estimated travel time
+- Fuel consumption estimate
+- Route safety considerations
+- Operational observations
+
+This enables users to make informed navigation decisions based on available information.
 
 ---
 
 ## 📄 Decision Card
 
-After analysis, SeaSafe displays a decision card summarizing important operational information in a clear and concise format.
+After route analysis, SeaSafe generates a Decision Card that summarizes the overall voyage assessment.
+
+The Decision Card acts as a quick operational briefing by presenting important route information in an easy-to-read format.
+
+Typical information includes:
+
+- Recommended route
+- Operational assessment
+- AI-generated reasoning
+- Weather observations
+- Route comparison summary
+- Navigation advice
+
+This helps operators quickly understand the current situation without reviewing multiple data sources.
 
 ---
 
 ## ⚖ Compliance Awareness
 
-The dashboard is designed to support compliance-aware route planning by displaying relevant operational information alongside navigation recommendations.
+SeaSafe is designed with compliance-aware route planning in mind.
+
+The system is capable of presenting relevant operational and regulatory information alongside route analysis to encourage safer maritime decision-making.
+
+Compliance support helps demonstrate how operational intelligence and maritime regulations can work together within a single dashboard.
 
 ---
 
 # 📡 Real Data vs Simulated Data
 
-## ✅ Real Data
+SeaSafe combines live maritime information with simulated voyage scenarios to create an interactive demonstration platform.
 
-The following information is fetched from live services.
+## ✅ Live Data
 
 ### 🚢 AIS Ship Tracking
 
-Nearby vessels are real ships sailing on the ocean.
+Nearby vessels displayed on the map are real ships.
 
-**Source:** AISStream WebSocket
+The application receives vessel positions through the AISStream WebSocket service, allowing continuous updates of ship locations.
+
+Live vessel information includes:
+
+- Ship Name
+- MMSI
+- IMO Number
+- Vessel Type
+- Current Position
+- Heading
 
 ---
 
-### 🌦 Weather
+### 🌦 Live Weather
 
-Weather information is fetched from:
+Weather information is fetched in real time using the Open-Meteo API.
 
-- Open-Meteo API
-
-Including:
+Available weather information includes:
 
 - Wind
 - Rain
 - Weather conditions
+- Environmental overlays
+
+This allows users to evaluate weather conditions alongside vessel traffic.
 
 ---
 
-### 🗺 Maps
+### 🗺 Map Services
 
-Map styles and satellite imagery are provided using real online map services.
+SeaSafe uses real online map services to provide high-quality visualization.
 
----
+Available map styles include:
 
-### 🤖 AI Assessment
-
-Operational assessment text is generated live using OpenAI's language model.
+- Nautical charts
+- Satellite imagery
+- Custom maritime themes
 
 ---
 
 ## 🟡 Simulated Data
 
-The following data is intentionally simulated for demonstration purposes.
+Some components are intentionally simulated for demonstration purposes.
 
-- Main vessel
-- Route scenarios
+These include:
+
+- Primary vessel
+- Voyage scenarios
 - Alternative routes
 - Port congestion
+- Route comparison values
 
-This allows the dashboard to demonstrate routing intelligence without requiring commercial maritime systems.
+Using simulated voyage scenarios allows users to test the complete workflow without requiring access to commercial maritime systems.
 
 ---
 
 # 🏗 System Architecture
 
 ```
-User
+                 User
 
-   │
+                   │
 
-   ▼
+                   ▼
 
-SeaSafe Dashboard
+        SeaSafe Bridge Console
 
-   │
+        ├─────────────────────────────┐
+        │                             │
+        ▼                             ▼
 
-   ├────────► AISStream WebSocket
+ AISStream WebSocket          Open-Meteo API
 
-   ├────────► Open-Meteo API
+        │                             │
+        └──────────────┬──────────────┘
+                       │
+                       ▼
 
-   ├────────► OpenAI
+            AI Orchestrator
+       (Local Llama 3.2 via Ollama)
 
-   ▼
+                       │
 
-Interactive Dashboard
+                       ▼
 
-   ▼
+             Route Analysis Engine
 
-Decision Support
+                       │
+
+                       ▼
+
+               Decision Card UI
 ```
+
+The dashboard integrates multiple data sources into a single workflow where live vessel information, weather conditions, and simulated voyage data are analyzed before presenting route recommendations to the user.
 
 ---
 
 # 🛠 Technology Stack
 
-| Category | Technologies |
-|----------|--------------|
+| Category | Technology |
+|-----------|------------|
 | Frontend | Next.js 16 |
-| UI | React 19 |
-| Language | TypeScript |
+| UI Library | React 19 |
+| Programming Language | TypeScript |
 | Styling | Tailwind CSS |
-| Components | shadcn/ui |
-| Maps | MapLibre GL |
+| UI Components | shadcn/ui |
+| Mapping | MapLibre GL |
 | Visualization | deck.gl |
-| AIS Tracking | AISStream |
+| AIS Data | AISStream WebSocket |
 | Weather | Open-Meteo API |
-| AI | OpenAI |
+| AI | Local Llama 3.2 (Ollama) |
 | State Management | Zustand |
+| Routing Engine | searoute-js |
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```
 SeaSafe/
 │
-├── app/                 # Application routes & API
-├── components/          # UI components
-├── lib/                 # Business logic & utilities
-├── scripts/             # AIS collector
-├── public/              # Static assets
-├── styles/              # Styling
+├── app/                    # Next.js App Router
+├── components/             # Reusable UI components
+├── lib/                    # AI, routing, weather and utilities
+├── scripts/                # AIS WebSocket collector
+├── public/                 # Static assets
+├── styles/                 # Global styling
 ├── package.json
+├── next.config.ts
 └── README.md
 ```
+
+The project follows a modular architecture, making it easier to maintain, extend, and integrate additional maritime services in the future.
+
+---
+
+This allows operators to understand weather impact while planning navigation routes.
 
 ---
 
 # 🚀 Getting Started
 
-## 1. Clone the Repository
+Follow the steps below to set up and run SeaSafe AI on your local machine.
+
+## Prerequisites
+
+Before starting, ensure the following software is installed on your system.
+
+- Node.js (Latest LTS Version)
+- npm
+- Git
+- Ollama
+- Modern Web Browser (Chrome, Edge, Firefox)
+
+---
+
+## 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/utkarshStudio/TryHard-BuildWithBharat-SeaSafe.git
+cd TryHard-BuildWithBharat-SeaSafe
 ```
 
-## 2. Install Dependencies
+---
+
+## 2️⃣ Install Dependencies
+
+Install all required packages.
 
 ```bash
 npm install
 ```
 
-## 3. Configure Environment Variables
+---
 
-Create a file named `.env.local`
+## 3️⃣ Configure Environment Variables
+
+Create a file named **.env.local**
 
 ```env
-AISSTREAM_API_KEY=187c98c9012253605cf7edcff61c608ced99ec6a
+AISSTREAM_API_KEY=YOUR_AISSTREAM_API_KEY
+```
+
+Replace the placeholder with your own AISStream API key.
+
+---
+
+## 4️⃣ Install Ollama
+
+Download Ollama from
+
+https://ollama.com/
+
+After installation, pull the required model.
+
+```bash
+ollama pull llama3.2
+```
+
+Start Ollama locally.
+
+```bash
+ollama serve
+```
+
+SeaSafe communicates with the local Ollama server running on:
+
+```
+http://localhost:11434
 ```
 
 ---
 
-## 4. Start Development Server
+## 5️⃣ Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open:
+Open your browser and visit
 
 ```
 http://localhost:3000
@@ -306,92 +479,189 @@ http://localhost:3000
 
 ---
 
-## 5. Start AIS Stream
+## 6️⃣ Start Live AIS Streaming
 
-Open another terminal and run:
+Open another terminal window.
+
+Run:
 
 ```bash
 npx tsx scripts/ais-collector-ws.mjs
 ```
 
-Keep this process running to display live ship positions.
+Keep this process running to receive live vessel updates.
 
 ---
 
-# 🔄 Workflow
+# ▶ How SeaSafe Works
 
-1. Start the application.
-2. Connect to the AIS stream.
-3. Load live weather information.
-4. Display nearby vessels.
-5. Select a navigation scenario.
-6. Generate an AI assessment.
-7. Review the Decision Card.
-8. Compare available routes.
+The application follows a simple operational workflow.
+
+### Step 1
+
+The dashboard loads and initializes the maritime map.
+
+↓
+
+### Step 2
+
+Live AIS data begins streaming nearby vessel positions.
+
+↓
+
+### Step 3
+
+Weather layers are fetched from Open-Meteo.
+
+↓
+
+### Step 4
+
+The operator selects or explores a voyage scenario.
+
+↓
+
+### Step 5
+
+The AI Orchestrator processes the available information.
+
+↓
+
+### Step 6
+
+SeaSafe compares available navigation routes.
+
+↓
+
+### Step 7
+
+A Decision Card is generated containing operational recommendations.
+
+↓
+
+### Step 8
+
+The operator reviews the information and selects the preferred navigation strategy.
 
 ---
 
 # 🎯 Use Cases
 
-- Maritime navigation
-- Voyage planning
-- Route comparison
-- Weather-aware navigation
-- Ship traffic monitoring
+SeaSafe can be used for a variety of maritime applications including:
+
+- Maritime route planning
+- Voyage risk assessment
+- Operational awareness
+- Navigation demonstrations
 - Maritime education
+- Research projects
+- Smart shipping solutions
 - Hackathon demonstrations
+- AI-assisted navigation research
 
 ---
 
 # 🔮 Future Improvements
 
-- Global route planning
+SeaSafe has been designed with extensibility in mind.
+
+Possible future enhancements include:
+
+- Live global route optimization
+- Real-time cyclone prediction
+- Fuel consumption optimization
+- Carbon emission estimation
+- Fleet management dashboard
 - Port congestion prediction
-- Cyclone forecasting
-- Fuel optimization
-- Carbon emission analysis
-- Multi-vessel fleet management
 - Satellite weather integration
+- Automatic rerouting
+- Emergency alert system
 - Mobile application
+- Offline map caching
+- Historical voyage analytics
 
 ---
 
-# 👥 Team
+# 👨‍💻 Team
 
-**Team TryHard**
+## Team TryHard
 
-- Utkarsh Gupta
-- Vaibhav Chaturvedi
-- Utkarsh Keshari
-- Anshu Kumar
-- Umang Singh
+- **Utkarsh Gupta**
+- **Vaibhav Chaturvedi**
+- **Utkarsh Keshari**
+- **Anshu Kumar**
+- **Umang Singh**
 
-**ABES Engineering College, Ghaziabad**
+**College**
+
+ABES Engineering College, Ghaziabad
+
+**Hackathon**
+
+Build With Bharat National Hackathon
 
 ---
 
-# 🌐 Links
+# 🌐 Project Links
 
-**Live Demo**
+## 🚀 Live Demo
 
 https://flourishing-kulfi-d7ae9e.netlify.app/
 
-**GitHub Repository**
+---
+
+## 💻 GitHub Repository
 
 https://github.com/utkarshStudio/TryHard-BuildWithBharat-SeaSafe
 
 ---
 
+# 🤝 Contributing
+
+Contributions are welcome.
+
+If you would like to improve SeaSafe, you can:
+
+1. Fork the repository.
+2. Create a new feature branch.
+3. Commit your changes.
+4. Push your branch.
+5. Open a Pull Request.
+
+Please ensure that your code follows the existing project structure and coding standards.
+
+---
+
 # 📜 License
 
-This project was developed as part of the **Build With Bharat National Hackathon** for educational and demonstration purposes.
+This project was developed as part of the **Build With Bharat National Hackathon** for educational, research, and demonstration purposes.
+
+---
+
+# 🙏 Acknowledgements
+
+Special thanks to:
+
+- Build With Bharat
+- Microsoft
+- ABES Engineering College
+- AISStream
+- Open-Meteo
+- MapLibre GL
+- deck.gl
+- Ollama
+- Meta Llama 3.2
+- Next.js
+- React
+- Tailwind CSS
+- The Open Source Community
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a Star on GitHub!
+## ⭐ If you found this project interesting, don't forget to Star the repository!
 
-Built with ❤️ by **Team TryHard**
+Made with ❤️ by **Team TryHard**
 
 </div>
