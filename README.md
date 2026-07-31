@@ -1,4 +1,4 @@
-````markdown
+
 # 🚢 SeaSafe AI
 
 SeaSafe AI is a smart maritime route intelligence and decision support platform built to help captains and shipping operators make safer navigation decisions. It combines live ship tracking, weather monitoring, interactive maps, route comparison, and AI-assisted route analysis into a single, easy-to-use dashboard.
