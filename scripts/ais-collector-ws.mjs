@@ -88,7 +88,17 @@ function connect() {
     return;
   }
 
-  socket.onopen = () => {
+  // Attach error listener immediately to catch handshake 429 errors cleanly
+  socket.on('error', (err) => {
+    const msg = err && err.message ? err.message : String(err);
+    if (msg.includes('429')) {
+      console.warn('[AIS Stream] Rate limited (HTTP 429). Server IP or API key reached connection limit. Falling back to cached vessel data...');
+    } else {
+      console.error('[AIS Stream Error]:', msg);
+    }
+  });
+
+  socket.on('open', () => {
     console.log(`CONNECTED successfully to aisstream.io WebSocket! Sending subscription...`);
     reconnectDelay = 5000; // Reset backoff on successful connection
     
@@ -103,14 +113,11 @@ function connect() {
     };
     
     socket.send(JSON.stringify(subscription));
-  };
+  });
 
-  socket.onmessage = async (event) => {
+  socket.on('message', async (data) => {
     try {
-      const rawStr = typeof event.data.text === 'function'
-        ? await event.data.text()
-        : event.data.toString();
-      
+      const rawStr = data.toString();
       const message = JSON.parse(rawStr);
       if (message.MessageType === "PositionReport" && message.MetaData) {
         const metadata = message.MetaData;
@@ -142,19 +149,11 @@ function connect() {
     } catch (e) {
       console.error("[onmessage error]:", e.message);
     }
-  };
+  });
 
-  socket.onclose = () => {
+  socket.on('close', () => {
     scheduleReconnect('connection closed');
-  };
-
-  socket.onerror = (err) => {
-    if (err.message && err.message.includes('429')) {
-      console.warn('[AIS Stream] Rate limited (HTTP 429). Note: AISStream allows only 1 concurrent connection per API Key.');
-    } else {
-      console.error('WebSocket error:', err.message || err);
-    }
-  };
+  });
 }
 
 connect();
