@@ -5,6 +5,7 @@ import {
   AlertTriangle,
   Bot,
   CheckCircle2,
+  Cpu,
   MessageSquareText,
   RotateCw,
   Sparkles,
@@ -144,7 +145,7 @@ export function AgentPanel() {
               <div className="flex items-center justify-between gap-3 mb-2">
                 <div className="flex items-center gap-2 text-xs font-bold text-slate-200">
                   <MessageSquareText className="size-4 text-cyan-400" />
-                  <span>Captain&apos;s AI Rationale</span>
+                  <span>Captain's AI Rationale</span>
                 </div>
                 {agent.status === "writing" && (
                   <span className="text-[10px] font-mono text-cyan-400 font-semibold uppercase tracking-wider animate-pulse">
