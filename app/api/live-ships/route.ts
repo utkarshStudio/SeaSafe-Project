@@ -53,7 +53,7 @@ export async function GET(request: Request) {
   }
 
   // Attempt to read the live AIS collector cache file
-  let liveCacheVessels: any[] = [];
+  let liveCacheVessels: Record<string, unknown>[] = [];
   const cachePath = path.join(process.cwd(), "public/data/live-ais-cache.json");
   if (fs.existsSync(cachePath)) {
     try {
