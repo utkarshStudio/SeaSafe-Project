@@ -1,5 +1,185 @@
 [
   {
+    "mmsi": 636024175,
+    "name": "SAAVEDRA TIDE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      33.31358,
+      31.66677
+    ],
+    "headingDeg": 125,
+    "updatedAt": 1785499409444
+  },
+  {
+    "mmsi": 353822000,
+    "name": "REGINA MED",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      34.60402,
+      31.82347
+    ],
+    "headingDeg": 296,
+    "updatedAt": 1785499409444
+  },
+  {
+    "mmsi": 525201449,
+    "name": "TB MARINA 2230",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.95946,
+      -2.12629
+    ],
+    "headingDeg": 15,
+    "updatedAt": 1785499407967
+  },
+  {
+    "mmsi": 525119099,
+    "name": "KIRANA TRITYA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.98602,
+      -2.1572
+    ],
+    "headingDeg": 76,
+    "updatedAt": 1785499407459
+  },
+  {
+    "mmsi": 257394000,
+    "name": "MMSI 257394000",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.82393,
+      1.18615
+    ],
+    "headingDeg": 249,
+    "updatedAt": 1785499406561
+  },
+  {
+    "mmsi": 428000408,
+    "name": "EITAN I",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      34.64363,
+      31.83513
+    ],
+    "headingDeg": 251,
+    "updatedAt": 1785499403567
+  },
+  {
+    "mmsi": 622123264,
+    "name": "ALI SHALABI",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.34015,
+      31.218
+    ],
+    "headingDeg": 14,
+    "updatedAt": 1785499402494
+  },
+  {
+    "mmsi": 525801968,
+    "name": "KARYA PACIFIC 2292",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.96217,
+      -2.11244
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785499401969
+  },
+  {
+    "mmsi": 622123250,
+    "name": "MOHAB MAMESH",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.32329,
+      31.26191
+    ],
+    "headingDeg": 0,
+    "updatedAt": 1785499401354
+  },
+  {
+    "mmsi": 370653000,
+    "name": "OCEAN GAS",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.1869,
+      31.60032
+    ],
+    "headingDeg": 311,
+    "updatedAt": 1785499401354
+  },
+  {
+    "mmsi": 622123247,
+    "name": "MOSAED 3",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.32446,
+      31.26144
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785499401354
+  },
+  {
+    "mmsi": 525100538,
+    "name": "KMP.GUNSA.8",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.8039,
+      -2.36889
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785499400228
+  },
+  {
+    "mmsi": 525401159,
+    "name": "MARINA 1632",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.94434,
+      -2.14518
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785499398598
+  },
+  {
+    "mmsi": 563012600,
+    "name": "QUEEN STAR 6",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.82208,
+      1.24014
+    ],
+    "headingDeg": 126,
+    "updatedAt": 1785499396717
+  },
+  {
+    "mmsi": 525601612,
+    "name": "LEO TRANS 7",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.93208,
+      -2.09562
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785499395596
+  },
+  {
     "mmsi": 352006066,
     "name": "PAN LILY",
     "imo": "",
@@ -214,18 +394,6 @@
     ],
     "headingDeg": 137,
     "updatedAt": 1785499368783
-  },
-  {
-    "mmsi": 636024175,
-    "name": "SAAVEDRA TIDE",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      33.31362,
-      31.66679
-    ],
-    "headingDeg": 125,
-    "updatedAt": 1785499368175
   },
   {
     "mmsi": 525005325,
@@ -576,18 +744,6 @@
     "updatedAt": 1785499343047
   },
   {
-    "mmsi": 525801968,
-    "name": "KARYA PACIFIC 2292",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.96217,
-      -2.11245
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785499342237
-  },
-  {
     "mmsi": 525200401,
     "name": "BOJOMA 2905",
     "imo": "",
@@ -852,18 +1008,6 @@
     "updatedAt": 1785499318067
   },
   {
-    "mmsi": 525601612,
-    "name": "LEO TRANS 7",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.93211,
-      -2.0956
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785499316936
-  },
-  {
     "mmsi": 667002468,
     "name": "AZORIN",
     "imo": "",
@@ -897,18 +1041,6 @@
       -2.12771
     ],
     "headingDeg": 25,
-    "updatedAt": 1785499312775
-  },
-  {
-    "mmsi": 428000408,
-    "name": "EITAN I",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      34.64362,
-      31.83514
-    ],
-    "headingDeg": 254,
     "updatedAt": 1785499312775
   },
   {
@@ -1596,18 +1728,6 @@
     "updatedAt": 1785499278230
   },
   {
-    "mmsi": 370653000,
-    "name": "OCEAN GAS",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      32.18692,
-      31.60035
-    ],
-    "headingDeg": 311,
-    "updatedAt": 1785499278230
-  },
-  {
     "mmsi": 525901302,
     "name": "WIRA LOEWISA",
     "imo": "",
@@ -1618,18 +1738,6 @@
     ],
     "headingDeg": 227,
     "updatedAt": 1785499278229
-  },
-  {
-    "mmsi": 525201449,
-    "name": "TB MARINA 2230",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.95951,
-      -2.12629
-    ],
-    "headingDeg": 8,
-    "updatedAt": 1785499278228
   },
   {
     "mmsi": 525701838,
@@ -1692,18 +1800,6 @@
     "updatedAt": 1785499278067
   },
   {
-    "mmsi": 622123264,
-    "name": "ALI SHALABI",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      32.34013,
-      31.218
-    ],
-    "headingDeg": 14,
-    "updatedAt": 1785499277919
-  },
-  {
     "mmsi": 620999311,
     "name": "SEA WIND",
     "imo": "",
@@ -1726,18 +1822,6 @@
     ],
     "headingDeg": 511,
     "updatedAt": 1785499277919
-  },
-  {
-    "mmsi": 622123250,
-    "name": "MOHAB MAMESH",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      32.32334,
-      31.26191
-    ],
-    "headingDeg": 0,
-    "updatedAt": 1785499242685
   },
   {
     "mmsi": 525200422,
@@ -2014,18 +2098,6 @@
     ],
     "headingDeg": 511,
     "updatedAt": 1785499143895
-  },
-  {
-    "mmsi": 622123247,
-    "name": "MOSAED 3",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      32.32446,
-      31.26144
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785499141640
   },
   {
     "mmsi": 622113177,
@@ -2724,18 +2796,6 @@
     "updatedAt": 1785498905911
   },
   {
-    "mmsi": 525100538,
-    "name": "KMP.GUNSA.8",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.80391,
-      -2.36887
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785498901202
-  },
-  {
     "mmsi": 525007335,
     "name": "SPOB DIANA JAYA I",
     "imo": "",
@@ -2986,18 +3046,6 @@
     ],
     "headingDeg": 65,
     "updatedAt": 1785498676464
-  },
-  {
-    "mmsi": 525401159,
-    "name": "MARINA 1632",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.94436,
-      -2.14519
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785498658393
   },
   {
     "mmsi": 525201010,
