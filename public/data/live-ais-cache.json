@@ -1,5 +1,233 @@
 [
   {
+    "mmsi": 525020371,
+    "name": "SEROJA XV",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.92593,
+      -2.7909
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500495266
+  },
+  {
+    "mmsi": 249433000,
+    "name": "REMAH",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.36673,
+      31.26651
+    ],
+    "headingDeg": 188,
+    "updatedAt": 1785500493260
+  },
+  {
+    "mmsi": 525110204,
+    "name": "LOE POWER 2232",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.94035,
+      -2.1312
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500492416
+  },
+  {
+    "mmsi": 525006045,
+    "name": "SMS VANDA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.92429,
+      -2.31226
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500492291
+  },
+  {
+    "mmsi": 255916523,
+    "name": "RIO FREDRIKSTAD",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.31385,
+      30.92925
+    ],
+    "headingDeg": 358,
+    "updatedAt": 1785500490553
+  },
+  {
+    "mmsi": 342000152,
+    "name": "CEMENT 1",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      34.62329,
+      31.83357
+    ],
+    "headingDeg": 307,
+    "updatedAt": 1785500490553
+  },
+  {
+    "mmsi": 525016149,
+    "name": "S_ANNA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      105.0646,
+      -2.03907
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500489831
+  },
+  {
+    "mmsi": 525008119,
+    "name": "MT PAGERUNGAN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.93181,
+      -2.42209
+    ],
+    "headingDeg": 155,
+    "updatedAt": 1785500488252
+  },
+  {
+    "mmsi": 525501280,
+    "name": "TB LL JEANNY",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.60765,
+      -2.34252
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500488252
+  },
+  {
+    "mmsi": 636024175,
+    "name": "SAAVEDRA TIDE",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      33.31307,
+      31.66624
+    ],
+    "headingDeg": 126,
+    "updatedAt": 1785500488251
+  },
+  {
+    "mmsi": 341742000,
+    "name": "TAMNON",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      34.64377,
+      31.82921
+    ],
+    "headingDeg": 116,
+    "updatedAt": 1785500488251
+  },
+  {
+    "mmsi": 525119099,
+    "name": "KIRANA TRITYA",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.98603,
+      -2.15693
+    ],
+    "headingDeg": 85,
+    "updatedAt": 1785500487733
+  },
+  {
+    "mmsi": 256151000,
+    "name": "MSC MADRID",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.32944,
+      31.17311
+    ],
+    "headingDeg": 14,
+    "updatedAt": 1785500485229
+  },
+  {
+    "mmsi": 567000124,
+    "name": "TARUA 124",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      100.56555,
+      13.70672
+    ],
+    "headingDeg": 297,
+    "updatedAt": 1785500484250
+  },
+  {
+    "mmsi": 525801955,
+    "name": "TB BOJOMA 2915",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.73546,
+      -2.37222
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500481136
+  },
+  {
+    "mmsi": 370653000,
+    "name": "OCEAN GAS",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      32.18675,
+      31.60021
+    ],
+    "headingDeg": 316,
+    "updatedAt": 1785500481136
+  },
+  {
+    "mmsi": 525015757,
+    "name": "TIRTA SAMUDRA XXIII",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.66239,
+      -1.50901
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500480562
+  },
+  {
+    "mmsi": 525601087,
+    "name": "WIRA SAMAERI",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      104.79956,
+      -2.3659
+    ],
+    "headingDeg": 511,
+    "updatedAt": 1785500479316
+  },
+  {
+    "mmsi": 564995000,
+    "name": "EVER UNICORN",
+    "imo": "",
+    "type": "Cargo Ship",
+    "position": [
+      103.84265,
+      1.26135
+    ],
+    "headingDeg": 126,
+    "updatedAt": 1785500476256
+  },
+  {
     "mmsi": 414578000,
     "name": "XIN WU XIANG HAI",
     "imo": "",
@@ -588,30 +816,6 @@
     "updatedAt": 1785500430282
   },
   {
-    "mmsi": 525008119,
-    "name": "MT PAGERUNGAN",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.93047,
-      -2.41884
-    ],
-    "headingDeg": 153,
-    "updatedAt": 1785500428338
-  },
-  {
-    "mmsi": 525020371,
-    "name": "SEROJA XV",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.92535,
-      -2.79179
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785500425848
-  },
-  {
     "mmsi": 352003271,
     "name": "BRIGHT OAK",
     "imo": "",
@@ -706,30 +910,6 @@
     ],
     "headingDeg": 106,
     "updatedAt": 1785500422253
-  },
-  {
-    "mmsi": 636024175,
-    "name": "SAAVEDRA TIDE",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      33.31314,
-      31.66628
-    ],
-    "headingDeg": 125,
-    "updatedAt": 1785500420514
-  },
-  {
-    "mmsi": 525801955,
-    "name": "TB BOJOMA 2915",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.73546,
-      -2.37222
-    ],
-    "headingDeg": 511,
-    "updatedAt": 1785500419798
   },
   {
     "mmsi": 428074000,
@@ -849,18 +1029,6 @@
       31.64294
     ],
     "headingDeg": 331,
-    "updatedAt": 1785500411403
-  },
-  {
-    "mmsi": 525601087,
-    "name": "WIRA SAMAERI",
-    "imo": "",
-    "type": "Cargo Ship",
-    "position": [
-      104.79955,
-      -2.36592
-    ],
-    "headingDeg": 511,
     "updatedAt": 1785500411403
   },
   {
