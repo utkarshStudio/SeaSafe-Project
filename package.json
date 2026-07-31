@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --webpack",
-    "build": "next build --webpack",
+    "build": "opennextjs-cloudflare build",
     "start": "next start",
     "lint": "eslint",
     "routes:generate": "tsx scripts/generate-sea-routes.ts"
@@ -33,6 +33,7 @@
   },
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.9.4",
+    "@opennextjs/cloudflare": "^1.20.2",
     "@tailwindcss/postcss": "^4",
     "@turf/boolean-point-in-polygon": "^7.3.5",
     "@turf/helpers": "^7.3.5",
@@ -44,7 +45,8 @@
     "shadcn": "^4.6.0",
     "tailwindcss": "^4",
     "tsx": "^4.23.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "wrangler": "^4.116.0"
   },
   "allowScripts": {
     "esbuild@0.28.1": true,
