@@ -3,35 +3,7 @@
 
 SeaSafe AI is a smart maritime route intelligence and decision support platform built to help captains and shipping operators make safer navigation decisions. It combines live ship tracking, weather monitoring, interactive maps, route comparison, and AI-assisted route analysis into a single, easy-to-use dashboard.
 
-Developed by **Team TryHard** during the **Build With Bharat National Hackathon**, SeaSafe demonstrates how AI and real-time maritime intelligence can improve situational awareness and support smarter navigation decisions.
 
-## 🏆 Hackathon
-
-**Build With Bharat National Hackathon**
-
-## 👥 Team
-
-**Team TryHard**
-
-- Utkarsh Gupta
-- Vaibhav Chaturvedi
-- Utkarsh Keshari
-- Anshu Kumar
-- Umang Singh
-
-**College:** ABES Engineering College, Ghaziabad
-
----
-
-## 🌐 Live Demo
-
-https://flourishing-kulfi-d7ae9e.netlify.app/
-
-## 📂 GitHub Repository
-
-https://github.com/utkarshStudio/TryHard-BuildWithBharat-SeaSafe
-
----
 
 # 📖 Overview
 
